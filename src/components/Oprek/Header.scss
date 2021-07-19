@@ -1,0 +1,13 @@
+.header-dark-oprek {
+  background: url('../../asset/img/mountain_bg.jpg') #444;
+  background-size: cover;
+  padding-bottom: 80px;
+  height: 720px;
+  border-radius: 0 0 100px 100px;
+}
+
+@media (min-width:768px) {
+  .header-dark-oprek {
+    padding-bottom: 120px;
+  }
+}

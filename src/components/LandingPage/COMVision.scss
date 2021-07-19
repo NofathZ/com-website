@@ -1,0 +1,14 @@
+.img-vision-box {
+  width: 450px;
+  height: 360px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-vision-mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

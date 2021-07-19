@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+* {
+  font-family: 'Work Sans', sans-serif !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading-underline {
+  border-bottom: 2px solid black;
+  display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading-one {
+  font-weight: 1000 !important; // bolder
+  font-size: 48px !important;
+}
+.heading-two {
+  font-weight: 700 !important; // bold
+  font-size: 32px !important;
+}
+.heading-three {
+  font-weight: 700 !important; // bold
+  font-size: 48px !important;
+}
+.lead-one {
+  font-weight: 300 !important; // regular
+  font-size: 24px !important;
+}
+.lead-two {
+  font-weight: 200 !important; // medium
+  font-size: 24px !important;
+}
+.lead-three {
+  font-weight: 200 !important;
+  font-size: 28px !important;
+}
+.body-one {
+  font-weight: 300 !important;
+  font-size: 20px !important;
+}
+.body-two {
+  font-weight: 200 !important;
+  font-size: 20px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+$emerald-green-100 : #5DD068;
+$emerald-green-50 : #9EE3A4;
+$tangerine-orange-100 : #ED8D03;
+$tangerine-orange-50 : #F6C681;
+$text-color : #27272D;
+$text-color-white : #E9E9E9;
+$emerald-green-20 : #DFF6E1;
+$tangerine-orange-20 : #FBE8CD;
+
+// Text color
+.emerald-green-100 {
+  color: $emerald-green-100 !important
+}
+.emerald-green-50 {
+  color: $emerald-green-50 !important
+}
+.tangerine-orange-100 {
+  color: $tangerine-orange-100 !important
+}
+.tangerine-orange-50 {
+  color: $tangerine-orange-50 !important
+}
+.text-color {
+  color: $text-color !important
+}
+.text-color-white {
+  color: $text-color-white !important;
+}
+.emerald-green-20 {
+  color: $emerald-green-20 !important
+}
+.tangerine-orange-20 {
+  color: tangerine-orange-20 !important
 }
 
-.App-link {
-  color: #61dafb;
+// Background color
+.bg-emerald-green-100 {
+  background-color: $emerald-green-100 !important
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-emerald-green-50 {
+  background-color: $emerald-green-50 !important
+}
+.bg-tangerine-orange-100 {
+  background-color: $tangerine-orange-100 !important
+}
+.bg-tangerine-orange-50 {
+  background-color: $tangerine-orange-50 !important
+}
+.bg-text-color {
+  background-color: $text-color !important
+}
+.bg-text-color-white {
+  background-color: $text-color-white !important
+}
+.bg-emerald-green-20 {
+  background-color: $emerald-green-20 !important
+}
+.bg-tangerine-orange-20 {
+  background-color: $tangerine-orange-20 !important
 }

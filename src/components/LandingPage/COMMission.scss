@@ -1,0 +1,29 @@
+.img-mission-box {
+  width: 450px;
+  height: 360px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.list-mission {
+  
+  li {
+    margin-left: 20px;
+  }
+}
+
+.list-mission-md {
+  li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 7px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .image-vision-mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

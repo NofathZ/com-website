@@ -1,26 +1,23 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import 'aos/dist/aos.css'
+import LandingPage from './pages/LandingPage';
+import About from './pages/About';
+import Structure from './pages/Structure';
+import OpenRecruitment from './pages/OpenRecruitment';
+import FAQ from './pages/FAQ'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <LandingPage /> */}
+      {/* <About /> */}
+      {/* <Structure /> */}
+      {/* <OpenRecruitment /> */}
+      <FAQ />
+    </>
   );
 }
 

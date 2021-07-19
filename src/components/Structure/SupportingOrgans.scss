@@ -1,0 +1,22 @@
+.support-organs-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.structure-img {
+  width: 240px;
+  height: 320px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .support-organs-img-container {
+    justify-content: center;
+  }
+  .structure-img {
+    margin: 0 10px;
+  }
+}

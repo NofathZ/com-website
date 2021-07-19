@@ -1,0 +1,88 @@
+// .milestone-container {
+  
+// }
+
+.milestone-may-container {
+  display: flex;
+}
+.milestone-may-img-left {
+  width: 400px;
+  background-color: black;
+  border-radius: 0 50px 50px 0;
+}
+.milestone-may-img-right {
+  width: 400px;
+  background-color: black;
+  border-radius: 50px 0 0 50px;
+}
+.milestone-may-content {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.milestone-july-container {
+  display: flex;
+}
+.milestone-july-content-left {
+  // position: relative;
+  border: 2px solid black;
+  width: 100%;
+  // background-color: black;
+  // border-radius: 0 50px 50px 0;
+}
+.milestone-july-content-left-box {
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  flex-direction: column;
+}
+.milestone-july-content-right-box {
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  flex-direction: column;
+}
+.milestone-july-content-right {
+  width: 100%;
+  // background-color: black;
+  // border-radius: 50px 0 0 50px;
+}
+.milestone-july-img-container {
+  // width: 600px;
+  // height: 400px;
+  // background-color: green;
+  // padding-left: 72px;
+  // padding-right: 72px;
+  // width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.milestone-july-img-box {
+  width: 600px;
+  height: 400px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.milestone-july-content-small {
+  display: flex;
+}
+.milestone-july-content-left-small {
+  width: 50%;
+}
+.milestone-july-content-right-small {
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .milestone-may-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .milestone-july-container {
+    display: block;
+  }
+}

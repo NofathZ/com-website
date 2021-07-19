@@ -1,0 +1,45 @@
+.pilar-container {
+  p, h1 {
+    text-align: center;
+  }
+}
+
+.pilar-box {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.header-pilar-left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  p {
+    text-align: right;
+    padding: 0;
+  }
+}
+
+.header-pilar-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  p {
+    text-align: left;
+    padding: 0;
+  }
+}
+
+.pilar-left {
+  text-align: right !important;
+}
+.pilar-right {
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .pilar-left, .pilar-right {
+    text-align: center !important;
+  }
+}
