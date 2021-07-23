@@ -4,9 +4,6 @@ import './Header.scss'
 function Header() {
     return(
         <div className="header-dark">
-            {/* <nav className="navbar navbar-dark navbar-expand-lg navigation-clean-search">
-                <div className="container"></div>
-            </nav> */}
             <div className="container hero">
                 <div>
                     <h1 className="heading-one text-color-white">Ecosystem Establishment and Storytelling</h1>

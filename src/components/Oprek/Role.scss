@@ -1,5 +1,18 @@
+
+
 .role-container {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
   flex-wrap: wrap;
+}
+
+.line-split {
+  border-right: 2px solid black;
+}
+
+@media only screen and (max-width: 767px) {
+  .line-split {
+    border: none;
+  }
 }

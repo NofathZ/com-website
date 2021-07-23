@@ -1,23 +1,46 @@
-// .milestone-container {
-  
-// }
+.milestone-container {
+  position: relative;
+  // border: 2px solid black
+}
 
-.milestone-may-container {
-  display: flex;
+.milestone-april-container {
+  // display: flex;
 }
-.milestone-may-img-left {
-  width: 400px;
-  background-color: black;
-  border-radius: 0 50px 50px 0;
-}
-.milestone-may-img-right {
-  width: 400px;
-  background-color: black;
-  border-radius: 50px 0 0 50px;
-}
-.milestone-may-content {
-  padding-left: 72px;
-  padding-right: 72px;
+// .milestone-april-img-left {
+//   top: 0;
+//   left: 0;
+//   position: absolute;
+//   width: 320px;
+//   height: 420px;
+//   background: url('../../asset/img/tes.png');
+//   background-size: cover;
+//   background-position: center center;
+//   border-radius: 0 50px 50px 0;
+// }
+// .milestone-april-img-left-small {
+//   // position: absolute;
+//   width: 320px;
+//   height: 420px;
+//   background-color: green;
+// }
+// .milestone-april-img-right {
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+//   width: 320px;
+//   height: 420px;
+//   background-color: black;
+//   border-radius: 50px 0 0 50px;
+// }
+// .milestone-april-img-right-small {
+//   width: 320px;
+//   height: 420px;
+//   background-color: rgb(117, 9, 9);
+// }
+.milestone-april-content {
+  min-height: 420px;
+  padding-left: 350px;
+  padding-right: 350px;
 }
 
 .milestone-july-container {
@@ -25,7 +48,7 @@
 }
 .milestone-july-content-left {
   // position: relative;
-  border: 2px solid black;
+  // border: 2px solid black;
   width: 100%;
   // background-color: black;
   // border-radius: 0 50px 50px 0;
@@ -33,13 +56,13 @@
 .milestone-july-content-left-box {
   width: 100%;
   height: 100%;
-  border: 2px solid red;
+  // border: 2px solid red;
   flex-direction: column;
 }
 .milestone-july-content-right-box {
   width: 100%;
   height: 100%;
-  border: 2px solid red;
+  // border: 2px solid red;
   flex-direction: column;
 }
 .milestone-july-content-right {
@@ -75,10 +98,26 @@
   width: 50%;
 }
 
+@media only screen and (min-width: 769px) {
+  .milestone-april-small {
+    display: none;
+  }
+  .milestone-april-normal {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 768px) {
-  .milestone-may-content {
+  .milestone-april-content {
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .milestone-april-small {
+    display: block;
+  }
+  .milestone-april-normal {
+    display: none;
   }
 }
 @media only screen and (max-width: 992px) {

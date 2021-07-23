@@ -23,10 +23,10 @@ function LandingPage() {
       </div>
       <COMVision />
       <COMMission />
-      <div className="pt-5 mt-5 bg-emerald-green-20" style={{borderRadius:"100px 100px 0 0"}}>
+      <div className="pt-5 mt-5 bg-emerald-green-20 green-section">
         <COMPilar />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

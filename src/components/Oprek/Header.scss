@@ -4,6 +4,9 @@
   padding-bottom: 80px;
   height: 720px;
   border-radius: 0 0 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width:768px) {

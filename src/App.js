@@ -8,15 +8,30 @@ import About from './pages/About';
 import Structure from './pages/Structure';
 import OpenRecruitment from './pages/OpenRecruitment';
 import FAQ from './pages/FAQ'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <>
-      {/* <LandingPage /> */}
-      {/* <About /> */}
-      {/* <Structure /> */}
-      {/* <OpenRecruitment /> */}
-      <FAQ />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/structure">
+            <Structure />
+          </Route>
+          <Route path="/oprec">
+            <OpenRecruitment />
+          </Route>
+          <Route path="/faq">
+            <FAQ />
+          </Route>
+        </Switch>
+      </Router>
     </>
   );
 }

@@ -2,41 +2,42 @@ import './FormApply.scss'
 
 function FormApply() {
   return(
-    <div className="form-apply-container">
+    <div className="form-apply-container bg-emerald-green-20 green-section" style={{marginTop:"145px"}}>
       <div className="container-md">
-        <h1>Apply Now</h1>
-        <form>
-          <div className="mb-3">
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name" />
+        <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"40px"}}>
+          <h1 className="heading-three heading-underline">Apply Now</h1>
+        </div>
+        <form className="form-input">
+          <div style={{marginBottom:"24px"}}>
+            <input type="text" className="form-control" id="exampleInputtext1" aria-describedby="textHelp" placeholder="Full Name" />
           </div>
-          <div className="mb-3">
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Address" />
+          <div style={{marginBottom:"24px"}}>
+            <input type="text" className="form-control" id="exampleInputtext1" aria-describedby="textHelp" placeholder="Address" />
           </div>
-          <div className="mb-3">
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="University" />
+          <div style={{marginBottom:"24px"}}>
+            <input type="text" className="form-control" id="exampleInputtext1" aria-describedby="textHelp" placeholder="Email" />
           </div>
-          <div className="mb-3">
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Major" />
+          <div style={{marginBottom:"24px"}}>
+            <input type="text" className="form-control" id="exampleInputtext1" aria-describedby="textHelp" placeholder="University" />
           </div>
-          <div className="mb-3">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </div>
+          <div style={{marginBottom:"24px"}}>
+            <input type="text" className="form-control" id="exampleInputtext1" aria-describedby="textHelp" placeholder="Major" />
           </div>
-          <div className="mb-3">
-            <div class="form-group">
-              <label for="exampleFormControlFile1">Curriculum Vitae</label>
-              <input type="file" class="form-control-file" id="exampleFormControlFile1" />
-            </div>
+          <div style={{marginBottom:"24px"}}>
+            <select class="form-select dropdown-input" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <div style={{marginBottom:"40px"}}>
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile" />
+          </div>
+          <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"40px"}}>
+            <button type="submit" className="btn btn-primary btn-submit bg-tangerine-orange-100 body-two" style={{border: "none"}}>Join Now</button>            
+          </div>
         </form>
       </div>
     </div>

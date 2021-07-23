@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 * {
   font-family: 'Work Sans', sans-serif !important;
+}
+
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 .heading-underline {
@@ -10,37 +21,117 @@
 }
 
 .heading-one {
-  font-weight: 1000 !important; // bolder
-  font-size: 48px !important;
+  // font-weight: 1000 !important; // bolder
+  // font-weight: bold;
+  // font-size: 54px !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 72px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 1px;
 }
 .heading-two {
-  font-weight: 700 !important; // bold
-  font-size: 32px !important;
+  // font-weight: 700 !important; // bold
+  // font-size: 32px !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 1px;
 }
 .heading-three {
-  font-weight: 700 !important; // bold
-  font-size: 48px !important;
+  // font-weight: 700 !important; // bold
+  // font-size: 48px !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 1px;
 }
 .lead-one {
-  font-weight: 300 !important; // regular
-  font-size: 24px !important;
+  // font-weight: 300 !important; // regular
+  // font-size: 24px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
 }
 .lead-two {
-  font-weight: 200 !important; // medium
-  font-size: 24px !important;
+  // font-weight: 200 !important; // medium
+  // font-size: 24px !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
 }
 .lead-three {
-  font-weight: 200 !important;
-  font-size: 28px !important;
+  // font-weight: 200 !important;
+  // font-size: 28px !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  /* identical to box height, or 143% */
+}
+.lead-four {
+  // font-weight: 300 !important;
+  // font-size: 28px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  /* identical to box height, or 143% */
+}
+.lead-five {
+  // font-weight: 200 !important; // medium
+  // font-size: 32px !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
 }
 .body-one {
-  font-weight: 300 !important;
-  font-size: 20px !important;
+  // font-weight: 300 !important;
+  // font-size: 20px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
 }
 .body-two {
-  font-weight: 200 !important;
-  font-size: 20px !important;
+  // font-weight: 200 !important;
+  // font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
 }
+.body-five {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  /* identical to box height, or 145% */
+}
+.body-six {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
+}
+
 
 $emerald-green-100 : #5DD068;
 $emerald-green-50 : #9EE3A4;

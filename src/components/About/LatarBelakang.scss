@@ -1,14 +1,47 @@
 .latar-belakang-container {
-  display: flex;
+  position: relative;
+  // border: 2px solid black;
+  background: linear-gradient(to right, #C4C4C4 , #FFFF);
 }
 
-.latar-belakang-img {
-  width: 400px;
+.latar-belakang-img-left {
+  top: 0;
+  left: 0;
+  position: absolute !important;
+  width: 320px;
+  height: 640px;
   background-color: black;
+  background: url('../../asset/img/building.jpg');
+  background-position: center bottom;
+  background-size: cover;
   border-radius: 0 50px 50px 0;
 }
 
 .latar-belakang-content {
-  padding-left: 72px;
-  padding-right: 72px;
+  min-height: 640px;
+  padding-left: 350px;
+  padding-right: 90px;
+}
+
+@media only screen and (min-width: 769px) {
+  .latar-belakang-small {
+    display: none;
+  }
+  .latar-belakang-normal {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .milestone-april-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .latar-belakang-small {
+    display: block;
+  }
+  .latar-belakang-normal {
+    display: none;
+  }
 }
