@@ -36,7 +36,7 @@ function ContactUs() {
         </div>
       </div>
       <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"50px"}}>
-        <a href="https://wa.me/6281247078692" target="_blank">
+        <a href="https://wa.me/6281247078692" target="_blank" rel="noreferrer">
           <button className="btn contact-us-button-wa bg-emerald-green-100 lead-two" style={{color:"white"}}>
             <label style={{marginRight:"16px"}}>
               <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">

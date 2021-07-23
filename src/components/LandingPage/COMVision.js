@@ -2,7 +2,7 @@ import './COMVision.scss'
 
 function COMVision() {
   return(
-    <div class="container container-vision" data-aos="fade-up">
+    <div class="container container-vision" data-aos="fade-left">
       <div class="row">
         <div class="col-md d-md-none image-vision-mission">
           <div className="img-vision-box"></div>

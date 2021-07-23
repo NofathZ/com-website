@@ -21,10 +21,8 @@ function Structure() {
         <Head />
       </div>
       <div className="structure-container-two">
-        <div data-aos="fade-up">
-          <SupportingOrgans />
-        </div>
-        <div data-aos="fade-up" style={{backgroundColor:"white", borderRadius:"100px 100px 0 0"}}>
+        <SupportingOrgans />
+        <div style={{backgroundColor:"white", borderRadius:"100px 100px 0 0"}}>
           <Member />
         </div>
       </div>

@@ -15,7 +15,7 @@ function Role() {
             <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"70px"}}>
               <h1 className="lead-five heading-underline">Company</h1>
             </div>
-            <div className="role-container" data-aos="fade-right">
+            <div className="role-container" data-aos="fade-left">
               <RoleCard />
               <RoleCard />
               <RoleCard />
@@ -30,7 +30,7 @@ function Role() {
             <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"70px"}}>
               <h1 className="lead-five heading-underline">Community</h1>
             </div>
-            <div className="role-container" data-aos="fade-left">
+            <div className="role-container" data-aos="fade-right">
               <RoleCard />
               <RoleCard />
               <RoleCard />

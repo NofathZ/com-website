@@ -11,9 +11,7 @@ function OpenRecruitment() {
       <Navbar />
       <Header />
       <Role />
-      <div>
-        <FormApply />
-      </div>
+      <FormApply />
       <Footer />
     </>
   )

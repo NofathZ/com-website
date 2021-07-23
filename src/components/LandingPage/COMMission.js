@@ -3,7 +3,7 @@ import './COMMission.scss'
 
 function COMMission() {
   return(
-    <div class="container mt-5" data-aos="fade-up">
+    <div class="container mt-5" data-aos="fade-right">
       <div class="row">
         <div class="col image-vision-mission">
           <div className="img-mission-box"></div>

@@ -1,6 +1,8 @@
+import { useEffect } from 'react'
 import './Milestone.scss'
 import FotoTes from '../../asset/img/tes.png'
 import styled from 'styled-components'
+import AOS from 'aos'
 
 const MilestoneAprilImageLeft = styled.div`
   top: 0;
@@ -54,22 +56,25 @@ const MilestoneJulyImgBox = styled.div`
 `
 
 function Milestone() {
+  useEffect(() => {
+    AOS.init({duration: 500})
+  }, [])
   return(
     <>
       <div className="d-flex justify-content-center align-items-center" style={{marginBottom: "58px"}}>
         <h1 className="heading-three heading-underline">Milestone</h1>
       </div>
       <div className="milestone-container">
-        <div className="milestone-april-container milestone-april-normal" style={{marginBottom:"32px"}}>
+        <div className="milestone-april-container milestone-april-normal" style={{marginBottom:"32px"}} >
           {/* <div className="milestone-april-img-left"></div> */}
-          <MilestoneAprilImageLeft source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+          <MilestoneAprilImageLeft source="http://staylo.herokuapp.com/images/penginapan/1.jpg" data-aos="fade-right" />
           <div className="milestone-april-content">
             <h1 className="lead-three" style={{textAlign:"center"}}>April 2021</h1>
             <h1 className="lead-three" style={{textAlign:"center"}}>Our first discussion about COM</h1>
             <p className="body-one" style={{textAlign:"justify", marginTop:"32px"}}>Kami berkumpul secara daring dari Indonesia-Jerman dan mulai bercerita akan cita-cita pengabdian dan dedikasi pada tanah air Indonesia dimulai dari COM. Dukungan keadaan dalam situasi pandemi membuat kami sadar akan banyaknya pemuda/-i Indonesia yang juga memiliki ide-ide gemilang untuk berkontribusi kepada Indonesia, sehingga persatuan adalah jalan yang kami pilih untuk maju bersama-sama</p>
           </div>
           {/* <div className="milestone-april-img-right"></div> */}
-          <MilestoneAprilImageRight source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+          <MilestoneAprilImageRight source="http://staylo.herokuapp.com/images/penginapan/1.jpg" data-aos="fade-left" />
         </div>
         
         <div className="milestone-april-container milestone-april-small" style={{marginBottom:"32px"}}>
@@ -95,7 +100,7 @@ function Milestone() {
           <div className="milestone-july-container" style={{marginTop:"58px"}}>
             <div className="d-none d-lg-block milestone-july-content-left">
               <div className="d-flex justify-content-center align-items-center milestone-july-content-left-box">
-                <h1 className="lead-two heading-underline">Company</h1>
+                <h1 className="lead-two heading-underline" style={{textAlign:"center"}}>Company</h1>
                 <p style={{textAlign:"center"}}>Heterogeneous as the key</p>
               </div>
             </div>
@@ -105,21 +110,21 @@ function Milestone() {
             </div>
             <div className="d-none d-lg-block milestone-july-content-right">
               <div className="d-flex justify-content-center align-items-center milestone-july-content-right-box">
-                <h1 className="lead-two heading-underline">Community</h1>
+                <h1 className="lead-two heading-underline" style={{textAlign:"center"}}>Community</h1>
                 <p style={{textAlign:"center"}}>Majority for consideration</p>
               </div>
             </div>
             <div className="d-lg-none container-lg milestone-july-content-small">
               <div className="milestone-july-content-left-small">
-                <div className="d-flex justify-content-center align-items-center milestone-july-content-left-box">
-                  <h1>Company</h1>
-                  <p>Heterogeneous as the key</p>
+                <div className="d-flex justify-content-center align-items-center milestone-july-content-left-box" style={{marginTop:"5px"}}>
+                  <h1 className="lead-two heading-underline">Company</h1>
+                  <p style={{textAlign:"center"}}>Heterogeneous as the key</p>
                 </div>
               </div>
               <div className="milestone-july-content-right-small">
-                <div className="d-flex justify-content-center align-items-center milestone-july-content-right-box">
-                  <h1>Community</h1>
-                  <p>Majority for consideration</p>
+                <div className="d-flex justify-content-center align-items-center milestone-july-content-right-box" style={{marginTop:"5px"}}>
+                  <h1 className="lead-two heading-underline">Community</h1>
+                  <p style={{textAlign:"center"}}>Majority for consideration</p>
                 </div>
               </div>
             </div>

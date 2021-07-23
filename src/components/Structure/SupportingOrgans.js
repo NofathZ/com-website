@@ -1,5 +1,7 @@
+import { useEffect } from 'react'
 import './SupportingOrgans.scss'
 import styled from 'styled-components'
+import AOS from 'aos'
 
 const dataSupport = [
   {
@@ -30,6 +32,9 @@ const StructureBoxImg = styled.div`
 `
 
 function SupportingOrgans() {
+  useEffect(() => {
+    AOS.init({duration: 500})
+  }, [])
   return(
     <div className="container" style={{marginTop:"120px"}}>
       <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"60px"}}>
@@ -37,7 +42,7 @@ function SupportingOrgans() {
       </div>
       <div className="support-organs-img-container">
         {dataSupport.map(data => (
-          <div className="structure-box">
+          <div className="structure-box" data-aos="fade-up">
             {/* <div className="structure-box-img"></div> */}
             <StructureBoxImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
             <div className="structure-box-title">

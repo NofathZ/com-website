@@ -1,5 +1,7 @@
+import { useEffect } from 'react'
 import './Member.scss'
 import styled from 'styled-components'
+import AOS from 'aos'
 
 const dataHead = [
   [
@@ -65,13 +67,16 @@ const MemberCardImg = styled.div`
 `
 
 function Member() {
+  useEffect(() => {
+    AOS.init({duration: 500})
+  }, [])
   return(
     <>
       <div className="container-lg" style={{paddingTop:"90px", paddingBottom:"160px"}}>
         <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"72px"}}>
           <h1 className="heading-three heading-underline">Member</h1>
         </div>
-        <div className="row">
+        <div className="row" data-aos="fade-up">
           <div className="col-md line-split">
             <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"32px"}}>
               <p className="lead-two heading-underline">Company</p>
