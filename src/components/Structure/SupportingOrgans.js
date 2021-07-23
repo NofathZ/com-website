@@ -38,12 +38,11 @@ function SupportingOrgans() {
   return(
     <div className="container" style={{marginTop:"120px"}}>
       <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"60px"}}>
-        <h3 className="heading-three heading-underline">Supporting Organs</h3>
+        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Supporting Organs</h3>
       </div>
       <div className="support-organs-img-container">
         {dataSupport.map(data => (
           <div className="structure-box" data-aos="fade-up">
-            {/* <div className="structure-box-img"></div> */}
             <StructureBoxImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
             <div className="structure-box-title">
               <p className="lead-three">{data.role}</p>

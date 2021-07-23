@@ -8,7 +8,7 @@ import About from './pages/About';
 import Structure from './pages/Structure';
 import OpenRecruitment from './pages/OpenRecruitment';
 import FAQ from './pages/FAQ'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (

@@ -84,7 +84,6 @@ function Member() {
             <div className="head-member">
               {dataHead[0].map(data => (
                 <div className="member-card">
-                  {/* <div className="member-card-img"></div> */}
                   <MemberCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
                   <div className="member-card-title">
                     <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
@@ -98,7 +97,6 @@ function Member() {
             <div className="other-member">
               {dataOtherMember[0].map(data => (
                 <div className="member-card">
-                  {/* <div className="member-card-img"></div> */}
                   <MemberCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
                   <div className="member-card-title">
                     <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
@@ -117,7 +115,6 @@ function Member() {
             <div className="head-member">
               {dataHead[1].map(data => (
                 <div className="member-card">
-                  {/* <div className="member-card-img"></div> */}
                   <MemberCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
                   <div className="member-card-title">
                     <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
@@ -131,7 +128,6 @@ function Member() {
             <div className="other-member">
               {dataOtherMember[1].map(data => (
                 <div className="member-card">
-                  {/* <div className="member-card-img"></div> */}
                   <MemberCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
                   <div className="member-card-title">
                     <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>

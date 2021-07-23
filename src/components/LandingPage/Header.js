@@ -1,5 +1,4 @@
 import './Header.scss'
-// import '../App.scss'
 
 function Header() {
     return(

@@ -1,5 +1,4 @@
 import './LatarBelakang.scss'
-// import BuildingPhoto from '../../asset/img/building.jpg'
 
 function LatarBelakang() {
   return(
@@ -24,7 +23,6 @@ function LatarBelakang() {
         </div>
       </div>
     </>
-    
   )
 }
 

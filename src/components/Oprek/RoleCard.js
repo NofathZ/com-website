@@ -23,8 +23,6 @@ function RoleCard() {
     <>
       <div className="role-card-container">
         <div className="role-card-img-box" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-          {/* <div className="role-card-img"></div> */}
-          {/* <RoleCardImg source={LogoTest} /> */}
           <RoleCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
         </div>
         <div className="role-title" style={{marginTop:"24px"}}>
