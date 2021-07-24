@@ -2,23 +2,31 @@ import { useEffect } from 'react'
 import './SupportingOrgans.scss'
 import styled from 'styled-components'
 import AOS from 'aos'
+import HRDPhoto from '../../asset/img/Structure/arifin.png'
+import SecretaryPhoto from '../../asset/img/Structure/RafikaAulia.png'
+import AmbassadorPhoto from '../../asset/img/Structure/Talitha.png'
+import FinanceOfficerPhoto from '../../asset/img/Structure/Mifta.png'
 
 const dataSupport = [
   {
     role: "HRD",
-    name: "Arifin"
+    name: "Arifin",
+    photo: HRDPhoto
   },
   {
     role: "Secretary",
-    name: "Rafika Aulia Rahmadian Salya"
+    name: "Rafika Aulia Rahmadian Salya",
+    photo: SecretaryPhoto
   },
   {
     role: "Ambassador",
-    name: "Talitha Thedya Tsany"
+    name: "Talitha Thedya Tsany",
+    photo: AmbassadorPhoto
   },
   {
     role: "Finance Officer",
-    name: "Febbianti Mifta Salsabilla"
+    name: "Febbianti Mifta Salsabilla",
+    photo: FinanceOfficerPhoto
   }
 ]
 
@@ -43,7 +51,7 @@ function SupportingOrgans() {
       <div className="support-organs-img-container">
         {dataSupport.map(data => (
           <div className="structure-box" data-aos="fade-up">
-            <StructureBoxImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+            <StructureBoxImg source={data.photo} />
             <div className="structure-box-title">
               <p className="lead-three">{data.role}</p>
             </div>

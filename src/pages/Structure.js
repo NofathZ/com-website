@@ -9,7 +9,7 @@ import AOS from 'aos'
 
 function Structure() {
   useEffect(() => {
-    AOS.init({duration: 500})
+    AOS.init({duration: 500});
   }, [])
   return(
     <>

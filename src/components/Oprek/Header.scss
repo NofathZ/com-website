@@ -1,8 +1,10 @@
 .header-dark-oprek {
-  background: url('../../asset/img/mountain_bg.jpg') #444;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('../../asset/img/Oprec/OprecHeader.jpg') #444;
   background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
   padding-bottom: 80px;
-  height: 720px;
+  height: 320px;
   border-radius: 0 0 100px 100px;
   display: flex;
   justify-content: center;

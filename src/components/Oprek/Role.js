@@ -1,10 +1,16 @@
 import './Role.scss'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import RoleCard from './RoleCard'
 import AOS from 'aos'
+import backoffice from '../../api/backoffice'
+import TestImej from '../../asset/img/tesimej.png'
 
-function Role() {
-  useEffect(() => {
+function Role(props) {
+
+  let RoleCompany = props.RoleCompany
+  let RoleCommunity = props.RoleCommunity
+
+  useEffect(async () => {
     AOS.init({duration: 500})
   }, [])
   return(
@@ -16,14 +22,9 @@ function Role() {
               <h1 className="lead-five heading-underline">Company</h1>
             </div>
             <div className="role-container" data-aos="fade-left">
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
+              {RoleCompany.map(data => (
+                <RoleCard name={data.name} photo={data.logo.url} requirement={data.requirement} description={data.description} />
+              ))}
             </div>
           </div>
           <div className="col-md role-wrapper">
@@ -31,14 +32,9 @@ function Role() {
               <h1 className="lead-five heading-underline">Community</h1>
             </div>
             <div className="role-container" data-aos="fade-right">
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
-              <RoleCard />
+              {RoleCommunity.map(data => (
+                <RoleCard name={data.name} photo={data.logo.url} />
+              ))}
             </div>
           </div>
         </div>

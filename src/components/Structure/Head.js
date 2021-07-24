@@ -1,5 +1,7 @@
 import './Head.scss'
 import styled from 'styled-components'
+import ChairmanPhoto from '../../asset/img/Structure/Chairman.png'
+import ViceChairmanPhoto from '../../asset/img/Structure/ViceChairman.png'
 
 const ChairmanImg = styled.div`
   width: 296px;
@@ -43,10 +45,8 @@ function Jumbotron() {
             </div>
           </div>
           <div className="col-md d-flex justify-content-center align-items-center">
-            {/* <div className="chairman-img"></div>
-            <div className="vice-chairman-img"></div> */}
-            <ChairmanImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
-            <ViceChairmanImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+            <ChairmanImg source={ChairmanPhoto} />
+            <ViceChairmanImg source={ViceChairmanPhoto} />
           </div>
           <div className="col-md d-flex justify-content-start align-items-end">
             <div className="vice-chairman-name d-none d-lg-block">
@@ -75,8 +75,7 @@ function Jumbotron() {
         <div className="row">
           <div className="col-md d-flex justify-content-center align-items-start">
             <div className="chairman-vice-small">
-              {/* <div className="chairman-vice-small-img"></div> */}
-              <ChairmanViceSmallImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+              <ChairmanViceSmallImg source={ChairmanPhoto} />
               <div className="name-small">
                 <p className="title heading-two">Chairman</p>
                 <p className="name lead-four">Daffa Tyora Hamedya</p>
@@ -85,8 +84,7 @@ function Jumbotron() {
           </div>
           <div className="col-md d-flex justify-content-center align-items-start">
             <div className="chairman-vice-small">
-              {/* <div className="chairman-vice-small-img"></div> */}
-              <ChairmanViceSmallImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+              <ChairmanViceSmallImg source={ViceChairmanPhoto} />
               <div className="name-small">
                 <p className="title heading-two">Vice Chairman</p>
                 <p className="name lead-four">Mohammad Ilham Ramadhan Heru</p>

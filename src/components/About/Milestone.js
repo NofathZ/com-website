@@ -3,6 +3,9 @@ import './Milestone.scss'
 import FotoTes from '../../asset/img/tes.png'
 import styled from 'styled-components'
 import AOS from 'aos'
+import MilestoneAprilLeftPhoto from '../../asset/img/About/MilestoneAprilLeft.png'
+import MilestoneAprilRightPhoto from '../../asset/img/About/MilestoneAprilRight.png'
+import MilestoneJulyPhoto from '../../asset/img/About/MilestoneJuly.png'
 
 const MilestoneAprilImageLeft = styled.div`
   top: 0;
@@ -21,7 +24,6 @@ const MilestoneAprilImageRight = styled.div`
   top: 0;
   width: 320px;
   height: 420px;
-  // background-color: black;
   background: url(${props => props.source});
   background-size: cover;
   background-position: center center;
@@ -66,13 +68,13 @@ function Milestone() {
       </div>
       <div className="milestone-container">
         <div className="milestone-april-container milestone-april-normal" style={{marginBottom:"32px"}} >
-          <MilestoneAprilImageLeft source="http://staylo.herokuapp.com/images/penginapan/1.jpg" data-aos="fade-right" />
+          <MilestoneAprilImageLeft source={MilestoneAprilLeftPhoto} data-aos="fade-right" />
           <div className="milestone-april-content">
             <h1 className="lead-three" style={{textAlign:"center"}}>April 2021</h1>
             <h1 className="lead-three" style={{textAlign:"center"}}>Our first discussion about COM</h1>
             <p className="body-one" style={{textAlign:"justify", marginTop:"32px"}}>Kami berkumpul secara daring dari Indonesia-Jerman dan mulai bercerita akan cita-cita pengabdian dan dedikasi pada tanah air Indonesia dimulai dari COM. Dukungan keadaan dalam situasi pandemi membuat kami sadar akan banyaknya pemuda/-i Indonesia yang juga memiliki ide-ide gemilang untuk berkontribusi kepada Indonesia, sehingga persatuan adalah jalan yang kami pilih untuk maju bersama-sama.</p>
           </div>
-          <MilestoneAprilImageRight source="http://staylo.herokuapp.com/images/penginapan/1.jpg" data-aos="fade-left" />
+          <MilestoneAprilImageRight source={MilestoneAprilRightPhoto} data-aos="fade-left" />
         </div>
         
         <div className="milestone-april-container milestone-april-small" style={{marginBottom:"32px"}}>
@@ -81,8 +83,8 @@ function Milestone() {
             <h1 className="lead-three" style={{textAlign:"center"}}>Our first discussion about COM</h1>
           </div>
           <div className="d-flex justify-content-center align-items-center" style={{marginTop:"32px", marginBottom:"32px"}}>
-            <MilestoneAprilImageLeftSmall source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
-            <MilestoneAprilImageRightSmall source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+            <MilestoneAprilImageLeftSmall source={MilestoneAprilLeftPhoto} />
+            <MilestoneAprilImageRightSmall source={MilestoneAprilRightPhoto} />
           </div>
           <div className="container">
             <p className="body-one" style={{textAlign:"justify"}}>Kami berkumpul secara daring dari Indonesia-Jerman dan mulai bercerita akan cita-cita pengabdian dan dedikasi pada tanah air Indonesia dimulai dari COM. Dukungan keadaan dalam situasi pandemi membuat kami sadar akan banyaknya pemuda/-i Indonesia yang juga memiliki ide-ide gemilang untuk berkontribusi kepada Indonesia, sehingga persatuan adalah jalan yang kami pilih untuk maju bersama-sama.</p>
@@ -100,7 +102,7 @@ function Milestone() {
               </div>
             </div>
             <div className="milestone-july-img-container">
-              <MilestoneJulyImgBox source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+              <MilestoneJulyImgBox source={MilestoneJulyPhoto} />
             </div>
             <div className="d-none d-lg-block milestone-july-content-right">
               <div className="d-flex justify-content-center align-items-center milestone-july-content-right-box">

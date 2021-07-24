@@ -1,52 +1,56 @@
+import { useState } from 'react'
 import './RoleCard.scss'
-import LogoTest from '../../asset/img/logo_test.svg'
 import styled from 'styled-components'
-
-// solusi line 11 https://css-tricks.com/forums/topic/svg-css-background-image-not-showing-in-chrome/
+import { Button, Modal } from 'react-bootstrap'
 
 const RoleCardImg = styled.div`
-  // width: 100%;
-  // height: 100%;
-  width: 180px;
-  height: 180px;
+  width: 100%;
+  height: 100%;
   border-radius: 100%;
-  // background-img: ${LogoTest};
   background: url(${props => props.source});
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
-  // background: black;
   border-radius: 100%;
 `
 
-function RoleCard() {
+function RoleCard(props) {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return(
     <>
       <div className="role-card-container">
-        <div className="role-card-img-box" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-          <RoleCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+        <div className="role-card-img-box" onClick={handleShow}>
+          <RoleCardImg source={props.photo} />
         </div>
         <div className="role-title" style={{marginTop:"24px"}}>
-          <p className="body-five">Titlenya dsini</p>
+          <p className="body-five">{props.name}</p>
         </div>
       </div>
 
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog  modal-dialog-scrollable">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Understood</button>
-          </div>
-        </div>
-      </div>
-    </div>
+      <Modal
+        show={show}
+        onHide={handleClose}
+        keyboard={false}
+      >
+        <Modal.Header>
+          <Modal.Title>{props.name}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <h1 className="lead-three">Description</h1>
+          <p className="body-one">{props.description}</p>
+          <hr/>
+          <h1 className="lead-three">Requirement</h1>
+          <p className="body-one">{props.requirement}</p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   )
 }

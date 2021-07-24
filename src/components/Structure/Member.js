@@ -1,27 +1,36 @@
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import './Member.scss'
 import styled from 'styled-components'
 import AOS from 'aos'
+import backoffice from '../../api/backoffice'
+import CompanyFounderPhoto from '../../asset/img/Structure/CompanyFounder.png'
+import CommunityFounderPhoto from '../../asset/img/Structure/CommunityFounder.png'
+import CompanyCoFounderPhoto from '../../asset/img/Structure/CompanyCoFounder.png'
+import CommunityCoFounderPhoto from '../../asset/img/Structure/CommunityCoFounder.png'
 
 const dataHead = [
   [
     {
       role: "Founder",
-      name: "Daffa Tyora Hamedya"
+      name: "Daffa Tyora Hamedya",
+      photo: CompanyFounderPhoto
     },
     {
       role: "Co-Founder",
-      name: "Mohammad Ilham Ramadhan Heru"
+      name: "Mohammad Ilham Ramadhan Heru",
+      photo: CompanyCoFounderPhoto
     }
   ],
   [
     {
       role: "Founder",
-      name: "Daffa Tyora Hamedya"
+      name: "Daffa Tyora Hamedya",
+      photo: CommunityFounderPhoto
     },
     {
       role: "Co-Founder",
-      name: "Mohammad Ilham Ramadhan Heru"
+      name: "Mohammad Ilham Ramadhan Heru",
+      photo: CommunityCoFounderPhoto
     }
   ]
 ]
@@ -67,8 +76,16 @@ const MemberCardImg = styled.div`
 `
 
 function Member() {
-  useEffect(() => {
-    AOS.init({duration: 500})
+  
+  const [companyOtherMember, setCompanyOtherMember] = useState([])
+  const [communityOtherMember, setCommunityOtherMember] = useState([])
+
+  useEffect(async () => {
+    AOS.init({duration: 500});
+    await backoffice.get('/api/v1/user/members').then(resp => {
+      setCompanyOtherMember(resp.data.data.Company)
+      setCommunityOtherMember(resp.data.data.Community)
+    })
   }, [])
   return(
     <>
@@ -84,7 +101,7 @@ function Member() {
             <div className="head-member">
               {dataHead[0].map(data => (
                 <div className="member-card">
-                  <MemberCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+                  <MemberCardImg source={data.photo} />
                   <div className="member-card-title">
                     <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
                   </div>
@@ -95,9 +112,9 @@ function Member() {
               ))}
             </div>
             <div className="other-member">
-              {dataOtherMember[0].map(data => (
+              {companyOtherMember.map(data => (
                 <div className="member-card">
-                  <MemberCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+                  <MemberCardImg source={data.image.url} />
                   <div className="member-card-title">
                     <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
                   </div>
@@ -115,7 +132,7 @@ function Member() {
             <div className="head-member">
               {dataHead[1].map(data => (
                 <div className="member-card">
-                  <MemberCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+                  <MemberCardImg source={data.photo} />
                   <div className="member-card-title">
                     <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
                   </div>
@@ -126,9 +143,9 @@ function Member() {
               ))}
             </div>
             <div className="other-member">
-              {dataOtherMember[1].map(data => (
+              {communityOtherMember.map(data => (
                 <div className="member-card">
-                  <MemberCardImg source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
+                  <MemberCardImg source={data.image.url} />
                   <div className="member-card-title">
                     <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
                   </div>
