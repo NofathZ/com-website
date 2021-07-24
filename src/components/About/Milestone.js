@@ -70,7 +70,7 @@ function Milestone() {
           <div className="milestone-april-content">
             <h1 className="lead-three" style={{textAlign:"center"}}>April 2021</h1>
             <h1 className="lead-three" style={{textAlign:"center"}}>Our first discussion about COM</h1>
-            <p className="body-one" style={{textAlign:"justify", marginTop:"32px"}}>Kami berkumpul secara daring dari Indonesia-Jerman dan mulai bercerita akan cita-cita pengabdian dan dedikasi pada tanah air Indonesia dimulai dari COM. Dukungan keadaan dalam situasi pandemi membuat kami sadar akan banyaknya pemuda/-i Indonesia yang juga memiliki ide-ide gemilang untuk berkontribusi kepada Indonesia, sehingga persatuan adalah jalan yang kami pilih untuk maju bersama-sama</p>
+            <p className="body-one" style={{textAlign:"justify", marginTop:"32px"}}>Kami berkumpul secara daring dari Indonesia-Jerman dan mulai bercerita akan cita-cita pengabdian dan dedikasi pada tanah air Indonesia dimulai dari COM. Dukungan keadaan dalam situasi pandemi membuat kami sadar akan banyaknya pemuda/-i Indonesia yang juga memiliki ide-ide gemilang untuk berkontribusi kepada Indonesia, sehingga persatuan adalah jalan yang kami pilih untuk maju bersama-sama.</p>
           </div>
           <MilestoneAprilImageRight source="http://staylo.herokuapp.com/images/penginapan/1.jpg" data-aos="fade-left" />
         </div>
@@ -85,7 +85,7 @@ function Milestone() {
             <MilestoneAprilImageRightSmall source="http://staylo.herokuapp.com/images/penginapan/1.jpg" />
           </div>
           <div className="container">
-            <p className="body-one" style={{textAlign:"justify"}}>Kami berkumpul secara daring dari Indonesia-Jerman dan mulai bercerita akan cita-cita pengabdian dan dedikasi pada tanah air Indonesia dimulai dari COM. Dukungan keadaan dalam situasi pandemi membuat kami sadar akan banyaknya pemuda/-i Indonesia yang juga memiliki ide-ide gemilang untuk berkontribusi kepada Indonesia, sehingga persatuan adalah jalan yang kami pilih untuk maju bersama-sama</p>
+            <p className="body-one" style={{textAlign:"justify"}}>Kami berkumpul secara daring dari Indonesia-Jerman dan mulai bercerita akan cita-cita pengabdian dan dedikasi pada tanah air Indonesia dimulai dari COM. Dukungan keadaan dalam situasi pandemi membuat kami sadar akan banyaknya pemuda/-i Indonesia yang juga memiliki ide-ide gemilang untuk berkontribusi kepada Indonesia, sehingga persatuan adalah jalan yang kami pilih untuk maju bersama-sama.</p>
           </div>
         </div>
         

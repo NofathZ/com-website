@@ -30,7 +30,7 @@ function COMPilar() {
         <div className="col-md d-flex justify-content-end align-items-end">
           <div>
             <p className="d-md-none lead-one" style={{marginBottom:"0", marginTop:"5px"}}>COM</p>
-            <p className="pilar-left body-one">Menjadi yang terdepan dalam memberikan solusi terbaik kepada para pemuda/-i di seluruh Indonesia</p>
+            <p className="pilar-left body-one">Menjadi yang terdepan dalam memberikan solusi terbaik kepada para pemuda/-i di seluruh Indonesia.</p>
           </div>
         </div>
         <div className="col-md d-flex justify-content-center align-items-center">
@@ -39,7 +39,7 @@ function COMPilar() {
         <div className="col-md d-flex justify-content-center align-items-center">
           <div>
             <p className="d-md-none lead-one" style={{marginBottom:"0", marginTop:"5px"}}>Individu</p>
-            <p className="pilar-right body-one">Kemampuan pengambilan keputusan dan bertanggungjawab atas pilihannya, serta menjadi teladan bagi orang di sekitarnya</p>
+            <p className="pilar-right body-one">Kemampuan pengambilan keputusan terbaik dan bertanggungjawab atas pilihannya, serta menjadi teladan bagi orang di sekitarnya.</p>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ function COMPilar() {
         <div className="col-md d-flex justify-content-center align-items-center">
           <div>
             <p className="d-md-none lead-one" style={{marginBottom:"0", marginTop:"5px"}}>COM</p>
-            <p className="pilar-left body-one">Mengutamakan kepentingan bersama diatas kepentingan pribadi</p>
+            <p className="pilar-left body-one">Utuh dan konsisten dalam merencanakan, melaksanakan, dan mengevaluasi program kerja.</p>
           </div>
         </div>
         <div className="col-md d-flex justify-content-center align-items-center">
@@ -61,7 +61,7 @@ function COMPilar() {
         <div className="col-md d-flex justify-content-center align-items-center">
           <div>
             <p className="d-md-none lead-one" style={{marginBottom:"0", marginTop:"5px"}}>Individu</p>
-            <p className="pilar-right body-one">Penunjukan rasa hormat dengan rekan atas peran dan bagian tugas yang dimiliki masing-masing</p>
+            <p className="pilar-right body-one">Penunjukan rasa hormat dengan rekan atas peran dan bagian tugas yang dimiliki masing-masing.</p>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ function COMPilar() {
         <div className="col-md d-flex justify-content-center align-items-center flex-direction-column">
           <div>
             <p className="d-md-none lead-one" style={{marginBottom:"0", marginTop:"5px"}}>COM</p>
-            <p className="pilar-left body-one">Mendukung dua badan yang berbeda (perusahaan dan komunitas) secara merata</p>
+            <p className="pilar-left body-one">Mendukung dua badan yang berbeda identitas, yaitu perusahaan dan komunitas secara merata.</p>
           </div>
         </div>
         <div className="col-md d-flex justify-content-center align-items-center">
@@ -83,7 +83,7 @@ function COMPilar() {
         <div className="col-md d-flex justify-content-center align-items-center">
           <div>
             <p className="d-md-none lead-one" style={{marginBottom:"0", marginTop:"5px"}}>Individu</p>
-            <p className="pilar-right body-one">Penyesuaian prioritas yang dikembalikan kepada setiap anggota atas keperluannya tanpa meninggalkan komitmen bersama</p>
+            <p className="pilar-right body-one">Penyesuaian prioritas yang dikembalikan kepada setiap anggota atas keperluannya tanpa meninggalkan komitmen bersama.</p>
           </div>
         </div>
       </div>
