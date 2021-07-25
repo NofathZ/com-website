@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './FormApply.scss'
 import backoffice from '../../api/backoffice'
 import axios from 'axios'
-import swal from 'sweetalert';
 import Swal from 'sweetalert2'
 
 function FormApply(props) {
