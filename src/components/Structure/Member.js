@@ -96,14 +96,14 @@ function Member() {
         <div className="row" data-aos="fade-up">
           <div className="col-md line-split">
             <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"32px"}}>
-              <p className="lead-two heading-underline">Company</p>
+              <p className="heading-two heading-underline">Company</p>
             </div>
             <div className="head-member">
               {dataHead[0].map(data => (
                 <div className="member-card">
                   <MemberCardImg source={data.photo} />
-                  <div className="member-card-title">
-                    <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
+                  <div className="member-card-title" style={{marginTop:"12px", marginBottom:"-12px"}}>
+                    <p className="lead-three" style={{textAlign:"center"}}><b>{data.role}</b></p>
                   </div>
                   <div className="member-card-name">
                     <p className="lead-one" style={{textAlign:"center"}}>{data.name}</p>
@@ -115,8 +115,8 @@ function Member() {
               {companyOtherMember.map(data => (
                 <div className="member-card">
                   <MemberCardImg source={data.image.url} />
-                  <div className="member-card-title">
-                    <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
+                  <div className="member-card-title" style={{marginTop:"12px", marginBottom:"-12px"}}>
+                    <p className="lead-three" style={{textAlign:"center"}}><b>{data.role}</b></p>
                   </div>
                   <div className="member-card-name">
                     <p className="lead-one" style={{textAlign:"center"}}>{data.name}</p>
@@ -127,14 +127,14 @@ function Member() {
           </div>
           <div className="col-md">
             <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"32px"}}>
-              <p className="lead-two heading-underline">Community</p>
+              <p className="heading-two heading-underline">Community</p>
             </div>
             <div className="head-member">
               {dataHead[1].map(data => (
                 <div className="member-card">
                   <MemberCardImg source={data.photo} />
-                  <div className="member-card-title">
-                    <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
+                  <div className="member-card-title" style={{marginTop:"12px", marginBottom:"-12px"}}>
+                    <p className="lead-three" style={{textAlign:"center"}}><b>{data.role}</b></p>
                   </div>
                   <div className="member-card-name">
                     <p className="lead-one" style={{textAlign:"center"}}>{data.name}</p>
@@ -146,8 +146,8 @@ function Member() {
               {communityOtherMember.map(data => (
                 <div className="member-card">
                   <MemberCardImg source={data.image.url} />
-                  <div className="member-card-title">
-                    <p className="lead-three" style={{textAlign:"center"}}>{data.role}</p>
+                  <div className="member-card-title" style={{marginTop:"12px", marginBottom:"-12px"}}>
+                    <p className="lead-three" style={{textAlign:"center"}}><b>{data.role}</b></p>
                   </div>
                   <div className="member-card-name">
                     <p className="lead-one" style={{textAlign:"center"}}>{data.name}</p>

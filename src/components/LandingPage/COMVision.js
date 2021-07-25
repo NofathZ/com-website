@@ -12,7 +12,7 @@ function COMVision() {
             <h1 className="heading-three heading-underline">Visi</h1>
           </div>
           <div className="d-md-none d-flex justify-content-center align-items-center" style={{marginBottom:"16px"}}>
-            <h1 className="heading-three heading-underline">Visi</h1>
+            <h1 className="heading-three heading-underline" style={{marginTop:"16px"}}>Visi</h1>
           </div>
           <p className="body-one" style={{textAlign: "justify"}}>Memajukan Indonesia melalui ekosistem perusahaan dan komunitas dengan menjunjung transparansi melalui pemuda/-i Indonesia.</p>
         </div>

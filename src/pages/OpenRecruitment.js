@@ -12,6 +12,7 @@ function OpenRecruitment() {
   const [RoleCommunity, setRoleCommunity] = useState([])
 
   useEffect(async () => {
+    window.scrollTo(0, 0);
     await backoffice.get('/api/v1/user/departments').then(resp => {
       setRoleCompany(resp.data.data.Company)
       setRoleCommunity(resp.data.data.Community)

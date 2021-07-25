@@ -19,9 +19,9 @@ function Role(props) {
         <div className="row">
           <div className="col-md role-wrapper line-split">
             <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"70px"}}>
-              <h1 className="lead-five heading-underline">Company</h1>
+              <h1 className="lead-five heading-underline"><b>Company</b></h1>
             </div>
-            <div className="role-container" data-aos="fade-left">
+            <div className="role-container" data-aos="fade-right">
               {RoleCompany.map(data => (
                 <RoleCard name={data.name} photo={data.logo.url} requirement={data.requirement} description={data.description} />
               ))}
@@ -29,11 +29,11 @@ function Role(props) {
           </div>
           <div className="col-md role-wrapper">
             <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"70px"}}>
-              <h1 className="lead-five heading-underline">Community</h1>
+              <h1 className="lead-five heading-underline"><b>Community</b></h1>
             </div>
-            <div className="role-container" data-aos="fade-right">
+            <div className="role-container" data-aos="fade-left">
               {RoleCommunity.map(data => (
-                <RoleCard name={data.name} photo={data.logo.url} />
+                <RoleCard name={data.name} photo={data.logo.url} requirement={data.requirement} description={data.description} />
               ))}
             </div>
           </div>

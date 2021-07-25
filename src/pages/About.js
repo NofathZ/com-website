@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './About.scss'
 import Navbar from '../components/Navbar'
 import LatarBelakang from '../components/About/LatarBelakang'
@@ -5,6 +6,9 @@ import Milestone from '../components/About/Milestone'
 import Footer from '../components/Footer'
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
   return(
     <>
       <Navbar />

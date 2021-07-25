@@ -26,7 +26,7 @@ function RoleCard(props) {
           <RoleCardImg source={props.photo} />
         </div>
         <div className="role-title" style={{marginTop:"24px"}}>
-          <p className="body-five">{props.name}</p>
+          <p className="body-five"><b>{props.name}</b></p>
         </div>
       </div>
 

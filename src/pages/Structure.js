@@ -10,6 +10,7 @@ import AOS from 'aos'
 function Structure() {
   useEffect(() => {
     AOS.init({duration: 500});
+    window.scrollTo(0, 0);
   }, [])
   return(
     <>

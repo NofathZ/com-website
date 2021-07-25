@@ -12,6 +12,7 @@ import 'aos/dist/aos.css'
 
 function LandingPage() {
   useEffect(() => {
+    window.scrollTo(0, 0);
     AOS.init({duration: 500})
   }, [])
   return(

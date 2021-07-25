@@ -49,8 +49,8 @@ const MilestoneAprilImageRightSmall = styled.div`
 `
 
 const MilestoneJulyImgBox = styled.div`
-  width: 600px;
-  height: 400px;
+  width: 720px;
+  height: 420.3px;
   border-radius: 50px;
   background: url(${props => props.source});
   background-size: cover;
@@ -70,8 +70,8 @@ function Milestone() {
         <div className="milestone-april-container milestone-april-normal" style={{marginBottom:"32px"}} >
           <MilestoneAprilImageLeft source={MilestoneAprilLeftPhoto} data-aos="fade-right" />
           <div className="milestone-april-content">
-            <h1 className="lead-three" style={{textAlign:"center"}}>April 2021</h1>
-            <h1 className="lead-three" style={{textAlign:"center"}}>Our first discussion about COM</h1>
+            <h1 className="lead-three" style={{textAlign:"center"}}><b>April 2021</b></h1>
+            <h1 className="lead-three" style={{textAlign:"center"}}><b>Our first discussion about COM</b></h1>
             <p className="body-one" style={{textAlign:"justify", marginTop:"32px"}}>Kami berkumpul secara daring dari Indonesia-Jerman dan mulai bercerita akan cita-cita pengabdian dan dedikasi pada tanah air Indonesia dimulai dari COM. Dukungan keadaan dalam situasi pandemi membuat kami sadar akan banyaknya pemuda/-i Indonesia yang juga memiliki ide-ide gemilang untuk berkontribusi kepada Indonesia, sehingga persatuan adalah jalan yang kami pilih untuk maju bersama-sama.</p>
           </div>
           <MilestoneAprilImageRight source={MilestoneAprilRightPhoto} data-aos="fade-left" />
@@ -79,8 +79,8 @@ function Milestone() {
         
         <div className="milestone-april-container milestone-april-small" style={{marginBottom:"32px"}}>
           <div className="container">
-            <h1 className="lead-three" style={{textAlign:"center"}}>April 2021</h1>
-            <h1 className="lead-three" style={{textAlign:"center"}}>Our first discussion about COM</h1>
+            <h1 className="lead-three" style={{textAlign:"center"}}><b>April 2021</b></h1>
+            <h1 className="lead-three" style={{textAlign:"center"}}><b>Our first discussion about COM</b></h1>
           </div>
           <div className="d-flex justify-content-center align-items-center" style={{marginTop:"32px", marginBottom:"32px"}}>
             <MilestoneAprilImageLeftSmall source={MilestoneAprilLeftPhoto} />
@@ -92,35 +92,35 @@ function Milestone() {
         </div>
         
         <div className="container-lg">
-          <h1 className="lead-three" style={{textAlign:"center"}}>July 2021</h1>
-          <h1 className="lead-three" style={{textAlign:"center"}}>Gathering of all founder and co-founders of our first company and community</h1>
+          <h1 className="lead-three" style={{textAlign:"center"}}><b>July 2021</b></h1>
+          <h1 className="lead-three" style={{textAlign:"center"}}><b>Gathering of all founder and co-founders of our first company and community</b></h1>
           <div className="milestone-july-container" style={{marginTop:"58px"}}>
-            <div className="d-none d-lg-block milestone-july-content-left">
-              <div className="d-flex justify-content-center align-items-center milestone-july-content-left-box">
-                <h1 className="lead-two heading-underline" style={{textAlign:"center"}}>Company</h1>
-                <p style={{textAlign:"center"}}>Heterogeneous as the key</p>
+            <div className="d-none d-lg-block milestone-july-content-left" style={{marginRight:"5px"}}>
+              <div className="d-flex justify-content-center align-items-center milestone-july-content-left-box" data-aos="fade-left">
+                <h1 className="lead-two heading-underline" style={{textAlign:"center"}}><b>Company</b></h1>
+                <p style={{textAlign:"center"}}>Heterogeneous<br/>as the key</p>
               </div>
             </div>
             <div className="milestone-july-img-container">
-              <MilestoneJulyImgBox source={MilestoneJulyPhoto} />
+              <MilestoneJulyImgBox source={MilestoneJulyPhoto} data-aos="zoom-in" />
             </div>
-            <div className="d-none d-lg-block milestone-july-content-right">
-              <div className="d-flex justify-content-center align-items-center milestone-july-content-right-box">
-                <h1 className="lead-two heading-underline" style={{textAlign:"center"}}>Community</h1>
-                <p style={{textAlign:"center"}}>Majority for consideration</p>
+            <div className="d-none d-lg-block milestone-july-content-right" style={{marginLeft:"5px"}}>
+              <div className="d-flex justify-content-center align-items-center milestone-july-content-right-box" data-aos="fade-right">
+                <h1 className="lead-two heading-underline" style={{textAlign:"center"}}><b>Community</b></h1>
+                <p style={{textAlign:"center"}}>Majority<br/>for consideration</p>
               </div>
             </div>
             <div className="d-lg-none container-lg milestone-july-content-small">
               <div className="milestone-july-content-left-small">
-                <div className="d-flex justify-content-center align-items-center milestone-july-content-left-box" style={{marginTop:"5px"}}>
-                  <h1 className="lead-two heading-underline">Company</h1>
-                  <p style={{textAlign:"center"}}>Heterogeneous as the key</p>
+                <div className="d-flex justify-content-center align-items-center milestone-july-content-left-box" style={{marginTop:"5px"}} data-aos="fade-left">
+                  <h1 className="lead-two heading-underline"><b>Company</b></h1>
+                  <p style={{textAlign:"center"}}>Heterogeneous<br/>as the key</p>
                 </div>
               </div>
               <div className="milestone-july-content-right-small">
-                <div className="d-flex justify-content-center align-items-center milestone-july-content-right-box" style={{marginTop:"5px"}}>
-                  <h1 className="lead-two heading-underline">Community</h1>
-                  <p style={{textAlign:"center"}}>Majority for consideration</p>
+                <div className="d-flex justify-content-center align-items-center milestone-july-content-right-box" style={{marginTop:"5px"}} data-aos="fade-right">
+                  <h1 className="lead-two heading-underline"><b>Community</b></h1>
+                  <p style={{textAlign:"center"}}>Majority<br/>for consideration</p>
                 </div>
               </div>
             </div>

@@ -40,7 +40,7 @@ function Jumbotron() {
         <div className="row">
           <div className="col-md d-flex justify-content-end align-items-end">
             <div className="chairman-name d-none d-lg-block">
-              <p className="title heading-two">Chairman</p>
+              <p className="title heading-two" style={{marginBottom:"0px"}}>Chairman</p>
               <p className="name lead-four">Daffa Tyora Hamedya</p>
             </div>
           </div>
@@ -50,7 +50,7 @@ function Jumbotron() {
           </div>
           <div className="col-md d-flex justify-content-start align-items-end">
             <div className="vice-chairman-name d-none d-lg-block">
-              <p className="title heading-two">Vice Chairman</p>
+              <p className="title heading-two" style={{marginBottom:"0px"}}>Vice Chairman</p>
               <p className="name lead-four">Mohammad Ilham Ramadhan Heru</p>
             </div>
           </div>
@@ -59,11 +59,11 @@ function Jumbotron() {
           <div className="col-md"></div>
           <div className="col-md d-flex justify-content-center align-items-start">
             <div className="name-small">
-              <p className="title heading-two">Chairman</p>
+              <p className="title heading-two" style={{marginBottom:"0px"}}>Chairman</p>
               <p className="name lead-four">Daffa Tyora Hamedya</p>
             </div>
             <div className="name-small">
-              <p className="title heading-two">Vice Chairman</p>
+              <p className="title heading-two" style={{marginBottom:"0px"}}>Vice Chairman</p>
               <p className="name lead-four">Mohammad Ilham Ramadhan Heru</p>
             </div>
           </div>
@@ -77,7 +77,7 @@ function Jumbotron() {
             <div className="chairman-vice-small">
               <ChairmanViceSmallImg source={ChairmanPhoto} />
               <div className="name-small">
-                <p className="title heading-two">Chairman</p>
+                <p className="title heading-two" style={{marginBottom:"0px"}}>Chairman</p>
                 <p className="name lead-four">Daffa Tyora Hamedya</p>
               </div>
             </div>
@@ -86,7 +86,7 @@ function Jumbotron() {
             <div className="chairman-vice-small">
               <ChairmanViceSmallImg source={ViceChairmanPhoto} />
               <div className="name-small">
-                <p className="title heading-two">Vice Chairman</p>
+                <p className="title heading-two" style={{marginBottom:"0px"}}>Vice Chairman</p>
                 <p className="name lead-four">Mohammad Ilham Ramadhan Heru</p>
               </div>
             </div>

@@ -52,8 +52,8 @@ function SupportingOrgans() {
         {dataSupport.map(data => (
           <div className="structure-box" data-aos="fade-up">
             <StructureBoxImg source={data.photo} />
-            <div className="structure-box-title">
-              <p className="lead-three">{data.role}</p>
+            <div className="structure-box-title" style={{marginTop:"12px"}}>
+              <p className="lead-three"><b>{data.role}</b></p>
             </div>
             <div className="structure-box-name">
               <p className="lead-one">{data.name}</p>
