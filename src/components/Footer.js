@@ -68,7 +68,7 @@ return(
                         <h3 className="body-two">Connect With Us</h3>
                         <ul className="d-flex justify-content-start align-items-center">
                             <li>
-                                <a href="#" target="_blank" rel="noreferrer">
+                                <a href="https://instagram.com/com_idn?utm_medium=copy_link" target="_blank" rel="noreferrer">
                                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path opacity="0.1" fillRule="evenodd" clipRule="evenodd" d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z" fill="white"/>
                                         <path d="M30.3989 16.467C30.1829 16.467 29.9939 16.548 29.8319 16.71C29.6699 16.845 29.5889 17.061 29.5889 17.277C29.5889 17.493 29.6699 17.682 29.8319 17.844C30.1289 18.141 30.6959 18.141 30.9929 17.844C31.1549 17.709 31.2359 17.493 31.2359 17.25C31.2359 17.061 31.1279 16.845 30.9929 16.71C30.8309 16.548 30.6149 16.467 30.3989 16.467Z" fill="#E9E9E9"/>
