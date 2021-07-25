@@ -71,18 +71,6 @@
   opacity: 0.9;
 }
 
-@media (max-width:991px) {
-  .footer-clean .item.social > a {
-    margin-top: 40px;
-  }
-}
-
-@media (max-width:767px) {
-  .footer-clean .item.social > a {
-    margin-top: 10px;
-  }
-}
-
 .footer-clean .copyright {
   margin-top: 14px;
   margin-bottom: 0;
@@ -93,3 +81,27 @@
 .hover-orange:hover {
   color: #ED8D03;
 }
+
+.sosmed-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+  .sosmed-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

@@ -1,5 +1,6 @@
 import './Footer.scss'
 import COMFooterLogo from '../asset/img/com_footer.png'
+import COMLogo from '../asset/img/com_logo.svg'
 import { Link } from 'react-router-dom'
 
 function Footer() {
@@ -10,7 +11,8 @@ return(
                 <div className="row justify-content-center">
                     <div className="col-sm-4 col-md-3 item">
                         <div className="mb-3">
-                            <img src={COMFooterLogo} />
+                            <img className="d-none d-md-block" src={COMFooterLogo} />
+                            <img className="d-md-none" src={COMLogo} />
                         </div>
                         <ul>
                             <li className="body-one">
@@ -66,7 +68,7 @@ return(
                     </div>
                     <div className="col-sm-4 col-md-3 item">
                         <h3 className="body-two">Connect With Us</h3>
-                        <ul className="d-flex justify-content-start align-items-center">
+                        <ul className="sosmed-wrapper">
                             <li>
                                 <a href="https://instagram.com/com_idn?utm_medium=copy_link" target="_blank" rel="noreferrer">
                                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +111,7 @@ return(
             </div>
         </footer>
     </>
-  )
+)
 }
 
 export default Footer

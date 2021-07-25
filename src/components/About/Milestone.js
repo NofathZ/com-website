@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import './Milestone.scss'
-import FotoTes from '../../asset/img/tes.png'
 import styled from 'styled-components'
 import AOS from 'aos'
 import MilestoneAprilLeftPhoto from '../../asset/img/About/MilestoneAprilLeft.png'

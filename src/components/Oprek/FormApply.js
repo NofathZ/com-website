@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './FormApply.scss'
 import backoffice from '../../api/backoffice'
 import axios from 'axios'
+import swal from 'sweetalert';
+import Swal from 'sweetalert2'
 
 function FormApply(props) {
   let AllRole = props.RoleCompany.concat(props.RoleCommunity)
@@ -25,10 +27,24 @@ function FormApply(props) {
       formData.append('major', major)
       formData.append('department_id', department_id)
       formData.append('attachment', attachUser)
-      for (var [key, value] of formData.entries()) { 
-        console.log(key, value);
-      }
-      const rest = await backoffice.post('/api/v1/user/jobApplications', formData)
+
+      Swal.fire({
+        title: 'Uploading...',
+        html: 'Please wait...',
+        allowEscapeKey: false,
+        allowOutsideClick: false,
+        didOpen: async () => {
+          Swal.showLoading()
+          const rest = await backoffice.post('/api/v1/user/jobApplications', formData)
+          Swal.close()
+          Swal.fire(
+            'Uploaded!',
+            'Your file has been uploaded.',
+            'success'
+          )
+        }
+      });
+
     }
     catch(err) {
       console.log(err)
