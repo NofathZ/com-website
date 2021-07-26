@@ -1,0 +1,24 @@
+.rightquote-content {
+  padding-right: 100px;
+}
+
+.rightquote-content p {
+  text-align: right;
+}
+
+@media screen and (max-width: 991px) {
+  .rightquote-container {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .rightquote-content p {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .rightquote-content {
+    padding-right: 0;
+  }
+}
+
