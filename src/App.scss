@@ -5,14 +5,10 @@
   font-family: 'Work Sans', sans-serif !important;
 }
 
-body {
+body, html {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-x: hidden; 
-}
-
-body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
+  scrollbar-width: none; /* for Firefox */ 
+  overflow-x: hidden;
 }
 
 .heading-underline {
@@ -202,6 +198,6 @@ $tangerine-orange-20 : #FBE8CD;
 
 @media screen and (max-width: 576px) {
   .heading-one {
-    font-size: 48px;
+    font-size: 45px;
   }
 }

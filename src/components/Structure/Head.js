@@ -1,7 +1,7 @@
 import './Head.scss'
 import styled from 'styled-components'
-import ChairmanPhoto from '../../asset/img/Structure/Chairman.png'
-import ViceChairmanPhoto from '../../asset/img/Structure/ViceChairman.png'
+import ChairmanPhoto from '../../asset/img/Structure/Chairman.jpg'
+import ViceChairmanPhoto from '../../asset/img/Structure/ViceChairman.jpg'
 
 const ChairmanImg = styled.div`
   width: 296px;
