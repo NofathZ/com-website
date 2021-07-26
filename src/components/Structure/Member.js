@@ -3,10 +3,10 @@ import './Member.scss'
 import styled from 'styled-components'
 import AOS from 'aos'
 import backoffice from '../../api/backoffice'
-import CompanyFounderPhoto from '../../asset/img/Structure/CompanyFounder.png'
-import CommunityFounderPhoto from '../../asset/img/Structure/CommunityFounder.png'
-import CompanyCoFounderPhoto from '../../asset/img/Structure/CompanyCoFounder.png'
-import CommunityCoFounderPhoto from '../../asset/img/Structure/CommunityCoFounder.png'
+import CompanyFounderPhoto from '../../asset/img/Structure/CompanyFounder.jpg'
+import CommunityFounderPhoto from '../../asset/img/Structure/CommunityFounder.jpg'
+import CompanyCoFounderPhoto from '../../asset/img/Structure/CompanyCoFounder.jpg'
+import CommunityCoFounderPhoto from '../../asset/img/Structure/CommunityCoFounder.jpg'
 
 const dataHead = [
   [

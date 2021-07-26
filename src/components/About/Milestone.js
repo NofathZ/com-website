@@ -2,9 +2,9 @@ import { useEffect } from 'react'
 import './Milestone.scss'
 import styled from 'styled-components'
 import AOS from 'aos'
-import MilestoneAprilLeftPhoto from '../../asset/img/About/MilestoneAprilLeft.png'
-import MilestoneAprilRightPhoto from '../../asset/img/About/MilestoneAprilRight.png'
-import MilestoneJulyPhoto from '../../asset/img/About/MilestoneJuly.png'
+import MilestoneAprilLeftPhoto from '../../asset/img/About/MilestoneAprilLeft.jpg'
+import MilestoneAprilRightPhoto from '../../asset/img/About/MilestoneAprilRight.jpg'
+import MilestoneJulyPhoto from '../../asset/img/About/MilestoneJuly.jpg'
 
 const MilestoneAprilImageLeft = styled.div`
   top: 0;

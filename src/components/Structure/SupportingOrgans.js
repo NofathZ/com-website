@@ -2,10 +2,10 @@ import { useEffect } from 'react'
 import './SupportingOrgans.scss'
 import styled from 'styled-components'
 import AOS from 'aos'
-import HRDPhoto from '../../asset/img/Structure/arifin.png'
-import SecretaryPhoto from '../../asset/img/Structure/RafikaAulia.png'
-import AmbassadorPhoto from '../../asset/img/Structure/Talitha.png'
-import FinanceOfficerPhoto from '../../asset/img/Structure/Mifta.png'
+import HRDPhoto from '../../asset/img/Structure/arifin.jpg'
+import SecretaryPhoto from '../../asset/img/Structure/RafikaAulia.jpg'
+import AmbassadorPhoto from '../../asset/img/Structure/Talitha.jpg'
+import FinanceOfficerPhoto from '../../asset/img/Structure/Mifta.jpg'
 
 const dataSupport = [
   {
