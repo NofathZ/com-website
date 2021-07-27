@@ -7,6 +7,8 @@ import About from './pages/About';
 import Structure from './pages/Structure';
 import OpenRecruitment from './pages/OpenRecruitment';
 import FAQ from './pages/FAQ'
+import Company from './pages/Company'
+import Community from './pages/Community';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -28,6 +30,12 @@ function App() {
           </Route>
           <Route path="/faq">
             <FAQ />
+          </Route>
+          <Route path="/company">
+            <Company />
+          </Route>
+          <Route path="/community">
+            <Community />
           </Route>
         </Switch>
       </Router>

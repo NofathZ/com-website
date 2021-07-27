@@ -1,0 +1,9 @@
+@media screen and (max-width: 991px) {
+  .vision-mission-container > div {
+    flex-direction: column-reverse;
+  }
+
+  .vision-mission {
+    margin-top: 20px;
+  }
+}
