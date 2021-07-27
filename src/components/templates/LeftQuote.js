@@ -7,7 +7,7 @@ const ImageLeft = styled.div`
   background: url(${props => props.source});
   background-size: cover;
   background-position: center center;
-  border-radius: 0px 50px 50px 0px;
+  border-radius: 50px 0px 0px 50px;
   
   @media screen and (max-width: 991px) {
     border-radius: 50px;
