@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './RoleCard.scss'
 import styled from 'styled-components'
 import { Button, Modal } from 'react-bootstrap'
+import { Markup } from 'interweave'
 
 const RoleCardImg = styled.div`
   width: 100%;
@@ -40,10 +41,10 @@ function RoleCard(props) {
         </Modal.Header>
         <Modal.Body>
           <h1 className="lead-three">Description</h1>
-          <p className="body-one">{props.description}</p>
+          <div className="body-one" dangerouslySetInnerHTML={{ __html: props.description }} />
           <hr/>
           <h1 className="lead-three">Requirement</h1>
-          <p className="body-one">{props.requirement}</p>
+          <div className="body-one" dangerouslySetInnerHTML={{ __html: props.requirement }} />
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
