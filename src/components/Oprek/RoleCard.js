@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './RoleCard.scss'
 import styled from 'styled-components'
 import { Button, Modal } from 'react-bootstrap'
-import { Markup } from 'interweave'
 
 const RoleCardImg = styled.div`
   width: 100%;
