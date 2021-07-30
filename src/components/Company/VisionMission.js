@@ -12,7 +12,7 @@ const CompanyImage = styled.div`
 
 function VisionMission() {
   return(
-    <div className="vision-mission-container" style={{marginBottom:"70px"}}>
+    <div className="vision-mission-container-company" style={{marginBottom:"70px"}}>
       <div className="container d-flex justify-content-between align-items-center" style={{columnGap:"100px"}}>
         <div className="vision-mission">
           <p className="body-one" style={{textAlign:"justify"}}>Mewujudkan Indonesia kreatif dan inovatif dengan pendukungan dan pengembangan industri periklanan, musik, film, video, dan animasi, serta tari.</p>

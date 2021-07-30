@@ -9,7 +9,13 @@
 @media screen and (max-width: 991px) {
   .rightquote-container {
     flex-direction: column;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .rightquote-content div {
+    text-align: center;
+    margin-top: 20px;
   }
 
   .rightquote-content p {

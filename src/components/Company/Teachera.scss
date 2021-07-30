@@ -2,3 +2,14 @@
   background: url('../../asset/img/Company/UnionTop.png') right top no-repeat, url('../../asset/img/Company/UnionBot.png') left bottom no-repeat;
   background-size: 100% 50%;
 }
+
+.coreteam-image-company img {
+  height: 640px;
+}
+
+@media screen and (max-width: 991px) {
+  .coreteam-image-company img {
+    width: 100%;
+    height: auto;
+  }
+}
