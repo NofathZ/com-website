@@ -5,7 +5,13 @@
 @media screen and (max-width: 991px) {
   .leftquote-container {
     flex-direction: column-reverse;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .leftquote-content div {
+    text-align: center;
+    margin-top: 20px;
   }
 
   .leftquote-content p {

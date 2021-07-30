@@ -62,8 +62,8 @@ function Lentera() {
       <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
         <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Team</h3>
       </div>
-      <div className="container text-center" style={{marginBottom: "58px"}}>
-        <img src={CoreTeamImage} alt="" style={{height: "640px"}} />
+      <div className="container text-center coreteam-image-community" style={{marginBottom: "58px"}}>
+        <img src={CoreTeamImage} alt="" />
       </div>
     </div>
   )

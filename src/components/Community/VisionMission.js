@@ -11,7 +11,7 @@ const CommunityImage = styled.div`
 
 function VisionMission() {
   return(
-    <div className="vision-mission-container" style={{marginBottom:"70px"}}>
+    <div className="vision-mission-container-community" style={{marginBottom:"70px"}}>
       <div className="container d-flex justify-content-between align-items-center" style={{columnGap:"100px"}}>
         <CommunityImage source={LenteraLogo} />
         <div className="vision-mission">
