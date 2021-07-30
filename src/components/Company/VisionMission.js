@@ -1,10 +1,13 @@
 import './VisionMission.scss'
 import styled from 'styled-components'
+import EderaLogo from '../../asset/img/Company/EderaLogo.png'
 
 const CompanyImage = styled.div`
   min-width: 418px;
   height: 360px;
-  background: #C4C4C4;
+  background: url(${props => props.source});
+  background-size: cover;
+  background-position: center center;
 `
 
 function VisionMission() {
@@ -18,10 +21,10 @@ function VisionMission() {
           </div>
           <ul>
             <li className="body-one" style={{textAlign:"justify"}}>Mengedukasi calon insan kreatif dan inovatif di indonesia melalui penanaman pemahaman dan penumbuhan keterampilan dengan basis teknologi dan kultur.</li>
-            <li className="body-one" style={{textAlign:"justify"}}>Meningkatkan produktivitas partisipan dengan memberikan ruang karya seluas-luasnya.</li>
+            <li className="body-one" style={{textAlign:"justify"}}>Meningkatkan produktivitas calon insan kreatif dan inovatif dengan memberikan ruang karya seluas-luasnya.</li>
           </ul>
         </div>
-        <CompanyImage />
+        <CompanyImage source={EderaLogo} />
       </div>
     </div>
   )

@@ -12,61 +12,61 @@ import CoreValues from './CoreValues'
 import MainBodies from './MainBodies'
 import CoreTeamImage from '../../asset/img/Community/diagram.png'
 
-function Teachera() {
+function Lentera() {
   return(
-    <div className="teachera-container">
-      <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
-        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Lentera Artha</h3>
+    <div>
+      <div className="lentera-container">
+        <LeftQuote
+        source={DaffaPhoto}
+        quote="“Fokus bertindak demi stabilitas\nJalani aksi secara berkelanjutan”"
+        position="Founder & Head Mediator"
+        name="Daffa Tyora Hamedya"
+        />
+        <RightQuote
+        source={IlhamPhoto}
+        quote="“Bisnis, Bisnis, Bisnis\nSemuanya tentang memulai”"
+        position="Co-Founder & Head Mastermind"
+        name="Mohammad Ilham Ramadhan Heru"
+        />
+        <LeftQuote
+        source={AnnisaTahtaPhoto}
+        quote="“Seseorang yang berani mengambil tindakan\nbukan bermimpi ialah pengusaha sejati”"
+        position="Co-Founder & Mastermind"
+        name="Annisa Tahta Ramadhani"
+        />
+        <RightQuote
+        source={DeaPhoto}
+        quote="“Berbisnis bukan tentang keuntungan namun\nbagaimana kamu bisa membaca peluang”"
+        position="Co-Founder & Human Resource Developer"
+        name="Erdyavika Claudia Apriwanti"
+        />
+        <LeftQuote
+        source={SalsabilaPhoto}
+        quote="“You’re already success if you take the chance to try”"
+        position="Founder & Head of Operational Manager"
+        name="Salsabila Naqiyya Qoriroh"
+        />
       </div>
-      <h5 className="lead-five" style={{textAlign:"center"}}>Introducing our Founder and Co-Founder</h5>
-      <LeftQuote
-      source={DaffaPhoto}
-      quote="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-      position="Founder & Head Mediator"
-      name="Daffa Tyora Hamedya"
-      />
-      <RightQuote
-      source={IlhamPhoto}
-      quote="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-      position="Co-Founder & Head Mastermind"
-      name="Mohammad Ilham Ramadhan Heru"
-      />
-      <LeftQuote
-      source={AnnisaTahtaPhoto}
-      quote="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-      position="Co-Founder & Mastermind"
-      name="Annisa Tahta Ramadhani"
-      />
-      <RightQuote
-      source={DeaPhoto}
-      quote="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-      position="Co-Founder & Human Resource Developer"
-      name="Erdyavika Claudia Apriwanti"
-      />
-      <LeftQuote
-      source={SalsabilaPhoto}
-      quote="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
-      position="Founder & Head of Operational Manager"
-      name="Salsabila Naqiyya Qoriroh"
-      />
-      <Rounded bgcolor="bg-emerald-green-50" />
+      <Rounded text="Lorem Ipsum dolor sit amet" bgcolor="bg-emerald-green-50" />
       <VisionMission />
       <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
         <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Values</h3>
       </div>
       <CoreValues />
-      <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"28px", marginBottom: "58px"}}>
-        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Main Bodies</h3>
+      <div style={{background: "#C4C4C4", paddingBottom: "24px"}}>
+        <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"28px", marginBottom: "58px"}}>
+          <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Main Bodies</h3>
+        </div>
+        <MainBodies />
       </div>
-      <MainBodies />
       <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
         <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Team</h3>
       </div>
       <div className="container text-center" style={{marginBottom: "58px"}}>
-        <img src={CoreTeamImage} alt="" style={{width: "100%"}} />
+        <img src={CoreTeamImage} alt="" style={{height: "640px"}} />
       </div>
     </div>
   )
 }
 
-export default Teachera
+export default Lentera

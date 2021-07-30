@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Header from '../components/Community/Header'
 import Footer from '../components/Footer'
 import Lentera from '../components/Community/Lentera'
+import Title from '../components/templates/Title'
 
 
 function Community() {
@@ -13,7 +14,14 @@ function Community() {
   return(
     <>
       <Navbar />
-      <Header />
+      <div className="bg-emerald-green-50">
+        <Header />
+        <Title
+        title="Lentera Artha"
+        subtitle="Introducing our Founder and Co-Founder"
+        bgcolor="bg-emerald-green-50"
+        />
+      </div>
       <Lentera />
       <Footer />
     </>
