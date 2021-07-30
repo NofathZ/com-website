@@ -1,6 +1,24 @@
-.core-card-container {
+.core-card-upper {
   width: 400px;
-  height: 420px;
-  border-radius: 50px;
+  height: 272px;
+  border-radius: 50px 50px 0 0;
   padding: 32px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.core-card-under {
+  background-color: white;
+  width: 400px;
+  height: 208px;
+  border-radius: 0 0 50px 50px;
+  padding: 32px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img-card-under {
+  height: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }

@@ -19,7 +19,9 @@ function RightQuote(props) {
     <div className="rightquote-container d-flex justify-content-between align-items-center">
       <ImageRight source={props.source} />
       <div className="rightquote-content">
-        <p className="body-six" style={{maxWidth: '800px'}}>{props.quote}</p>
+        <div className="body-six text-end" style={{marginBottom: "24px"}}>
+          {props.quote.split('\\n').map((text) => <div>{text}</div>)}
+        </div>
         <p className="lead-three"><b>{props.position}</b></p>
         <p className="body-six">{props.name}</p>
       </div>
