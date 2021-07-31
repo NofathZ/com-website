@@ -49,13 +49,8 @@ function Teachera() {
       </div>
       <Rounded text="Enhance Understanding, Raising Skills" bgcolor="bg-tangerine-orange-50" />
       <VisionMission />
-<<<<<<< HEAD
-      <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "50px"}}>
-        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Values</h3>
-=======
       <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
         <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Pillars</h3>
->>>>>>> 1a4158a4d83f07661143ebd9034821208b230376
       </div>
       <CoreValues />
       <div style={{background: "#C4C4C4", paddingBottom: "55px", paddingTop: "55px"}}>
