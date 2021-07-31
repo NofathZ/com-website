@@ -47,10 +47,10 @@ function Teachera() {
         name="Larassayu Arvaneira Evanthe"
         />
       </div>
-      <Rounded text="Lorem Ipsum dolor sit amet" bgcolor="bg-tangerine-orange-50" />
+      <Rounded text="Enhance Understanding, Raising Skills" bgcolor="bg-tangerine-orange-50" />
       <VisionMission />
       <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
-        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Values</h3>
+        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Pillars</h3>
       </div>
       <CoreValues />
       <div style={{background: "#C4C4C4", paddingBottom: "55px", paddingTop: "55px"}}>
