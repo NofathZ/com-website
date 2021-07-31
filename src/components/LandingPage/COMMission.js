@@ -15,7 +15,7 @@ function COMMission() {
             <h1 className="heading-three heading-underline" style={{marginTop:"16px"}}>Misi</h1>
           </div>
           <ul className="list-group list-group-flush d-none d-md-block list-mission">
-            <li className="body-one" style={{textAlign: "justify"}}>Mendirikan perusahaan serta komunitas berbasis teknologi dan kultur yang berpusat di berbagai kota besar di Indonesia sebagai media belajar dan berkembang.</li>
+            <li className="body-one" style={{textAlign: "justify"}}>Mendirikan perusahaan serta komunitas berbasis teknologi dan kultural yang berpusat di berbagai kota besar di Indonesia sebagai media belajar dan berkembang.</li>
             <li className="body-one" style={{textAlign: "justify"}}>Mendukung pemuda/-i Indonesia untuk mencapai kemandirian dan kebebasan finansial serta sosial di usia dini.</li>
             <li className="body-one" style={{textAlign: "justify"}}>Berpartisipasi dan berkolaborasi dalam memajukan Indonesia melalui karya/produk dan tindakan nyata.</li>
           </ul>

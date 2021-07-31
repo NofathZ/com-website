@@ -18,7 +18,7 @@ function Lentera() {
       <div className="lentera-container">
         <LeftQuote
         source={DaffaPhoto}
-        quote="“Fokus bertindak demi stabilitas\nJalani aksi secara berkelanjutan”"
+        quote="“Fokus bertindak demi stabilitas.\nJalani aksi secara berkelanjutan”"
         position="Founder & Head Mediator"
         name="Daffa Tyora Hamedya"
         />
@@ -47,7 +47,7 @@ function Lentera() {
         name="Salsabila Naqiyya Qoriroh"
         />
       </div>
-      <Rounded text="Lorem Ipsum dolor sit amet" bgcolor="bg-emerald-green-50" />
+      <Rounded text="Provide Knowledge, Develop Self-Potential" bgcolor="bg-emerald-green-50" />
       <VisionMission />
       <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
         <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Values</h3>

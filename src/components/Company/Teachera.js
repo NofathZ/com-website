@@ -18,7 +18,7 @@ function Teachera() {
       <div className="teachera-container">
         <RightQuote
         source={DaffaPhoto}
-        quote="“Maknai Kreativitas dalam berkarya.\nJunjung inovasi lewat kreasi”"
+        quote="“Maknai kreativitas dalam berkarya.\nJunjung inovasi lewat kreasi”"
         position="Founder & Chief Executive Officer"
         name="Daffa Tyora Hamedya"
         />
@@ -47,14 +47,14 @@ function Teachera() {
         name="Larassayu Arvaneira Evanthe"
         />
       </div>
-      <Rounded text="Lorem Ipsum dolor sit amet" bgcolor="bg-tangerine-orange-50" />
+      <Rounded text="Enhance Understanding, Raising Skills" bgcolor="bg-tangerine-orange-50" />
       <VisionMission />
-      <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
+      <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "50px"}}>
         <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Values</h3>
       </div>
       <CoreValues />
-      <div style={{background: "#C4C4C4", paddingBottom: "24px"}}>
-        <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"28px", marginBottom: "58px"}}>
+      <div style={{background: "#C4C4C4", paddingBottom: "0px"}}>
+        <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"28px", marginBottom: "50px"}}>
           <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Main Bodies</h3>
         </div>
         <MainBodies />
