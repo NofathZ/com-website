@@ -43,14 +43,14 @@ function Lentera() {
         <LeftQuote
         source={SalsabilaPhoto}
         quote="“You’re already success if you take the chance to try”"
-        position="Founder & Head of Operational Manager"
+        position="Co-Founder & Head of Operational Manager"
         name="Salsabila Naqiyya Qoriroh"
         />
       </div>
       <Rounded text="Provide Knowledge, Develop Self-Potential" bgcolor="bg-emerald-green-50" />
       <VisionMission />
       <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
-        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Values</h3>
+        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Pillars</h3>
       </div>
       <CoreValues />
       <div style={{background: "#C4C4C4", paddingBottom: "55px", paddingTop: "55px"}}>
