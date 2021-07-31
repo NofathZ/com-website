@@ -53,8 +53,8 @@ function Lentera() {
         <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Values</h3>
       </div>
       <CoreValues />
-      <div style={{background: "#C4C4C4", paddingBottom: "24px"}}>
-        <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"28px", marginBottom: "58px"}}>
+      <div style={{background: "#C4C4C4", paddingBottom: "55px", paddingTop: "55px"}}>
+        <div className="d-flex justify-content-center align-items-center" style={{marginBottom: "58px"}}>
           <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Main Bodies</h3>
         </div>
         <MainBodies />
