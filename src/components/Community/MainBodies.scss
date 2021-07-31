@@ -2,3 +2,14 @@
   padding: 16px 36px;
   border-radius: 20px;
 }
+
+.main-container-community {
+  row-gap: 20px;
+}
+
+
+@media screen and (max-width: 520px) {
+  .main-container-community {
+    flex-direction: column;
+  }
+}
