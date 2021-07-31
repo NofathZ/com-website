@@ -80,7 +80,7 @@ function FormApply(props) {
             </select>
           </div>
           <div style={{marginBottom:"40px"}}>
-            <label for="attachment" className="form-label">Curriculum Vitae</label>
+            <label for="attachment" className="form-label">Drop your documents here</label>
             <input onChange={(event) => setAttachUser(event.target.files[0])} className="form-control" type="file" id="attachment" name="attachment" required />
           </div>
           <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"40px"}}>
