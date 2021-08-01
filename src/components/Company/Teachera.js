@@ -16,36 +16,46 @@ function Teachera() {
   return(
     <div>
       <div className="teachera-container">
-        <RightQuote
-        source={DaffaPhoto}
-        quote="“Maknai kreativitas dalam berkarya.\nJunjung inovasi lewat kreasi”"
-        position="Founder & Chief Executive Officer"
-        name="Daffa Tyora Hamedya"
-        />
-        <LeftQuote
-        source={IlhamPhoto}
-        quote="“Creative Industry isn’t something new but we will make it creative!”"
-        position="Co-Founder & President Commissioner"
-        name="Mohammad Ilham Ramadhan Heru"
-        />
-        <RightQuote
-        source={AnnisaNurPhoto}
-        quote="“Creative industry input is basically wild ideas and strong will”"
-        position="Co-Founder & Vice President Commissioner"
-        name="Annisa Nur Handayani"
-        />
-        <LeftQuote
-        source={AdistiPhoto}
-        quote="“Industri kreatif merupakan wadah berbagi ekspresi, karya, dan proses”"
-        position="Co-Founder & Human Resource Developer"
-        name="Adisti Sekar Palupi"
-        />
-        <RightQuote
-        source={LarasPhoto}
-        quote="“Kreativitas dimunculkan dengan\nmencoba hal baru dan mengambil risiko”"
-        position="Co-Founder & Chief Operating Officer"
-        name="Larassayu Arvaneira Evanthe"
-        />
+        <div data-aos="fade-right">
+          <RightQuote
+          source={DaffaPhoto}
+          quote="“Maknai kreativitas dalam berkarya.\nJunjung inovasi lewat kreasi”"
+          position="Founder & Chief Executive Officer"
+          name="Daffa Tyora Hamedya"
+          />
+        </div>
+        <div data-aos="fade-left">
+          <LeftQuote
+          source={IlhamPhoto}
+          quote="“Creative Industry isn’t something new but we will make it creative!”"
+          position="Co-Founder & President Commissioner"
+          name="Mohammad Ilham Ramadhan Heru"
+          />
+        </div>
+        <div data-aos="fade-right">
+          <RightQuote
+          source={AnnisaNurPhoto}
+          quote="“Creative industry input is basically wild ideas and strong will”"
+          position="Co-Founder & Vice President Commissioner"
+          name="Annisa Nur Handayani"
+          />
+        </div>
+        <div data-aos="fade-left">
+          <LeftQuote
+          source={AdistiPhoto}
+          quote="“Industri kreatif merupakan wadah berbagi ekspresi, karya, dan proses”"
+          position="Co-Founder & Human Resource Developer"
+          name="Adisti Sekar Palupi"
+          />
+        </div>
+        <div data-aos="fade-right">
+          <RightQuote
+          source={LarasPhoto}
+          quote="“Kreativitas dimunculkan dengan\nmencoba hal baru dan mengambil risiko”"
+          position="Co-Founder & Chief Operating Officer"
+          name="Larassayu Arvaneira Evanthe"
+          />
+        </div>
       </div>
       <Rounded text="Enhance Understanding, Raising Skills" bgcolor="bg-tangerine-orange-50" />
       <VisionMission />
