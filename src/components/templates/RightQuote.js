@@ -12,6 +12,10 @@ const ImageRight = styled.div`
   @media screen and (max-width: 991px) {
     border-radius: 50px;
   }
+
+  @media screen and (max-width: 350px) {
+    width: 100%
+  }
 `
 
 function RightQuote(props) {

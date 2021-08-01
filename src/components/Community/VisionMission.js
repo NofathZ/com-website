@@ -7,6 +7,12 @@ const CommunityImage = styled.div`
   height: 360px;
   background: url(${props => props.source});
   background-position: center center;
+
+  @media screen and (max-width: 425px) {
+    min-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 `
 
 function VisionMission() {
