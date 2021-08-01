@@ -16,36 +16,46 @@ function Lentera() {
   return(
     <div>
       <div className="lentera-container">
-        <LeftQuote
-        source={DaffaPhoto}
-        quote="“Fokus bertindak demi stabilitas.\nJalani aksi secara berkelanjutan”"
-        position="Founder & Head Mediator"
-        name="Daffa Tyora Hamedya"
-        />
-        <RightQuote
-        source={IlhamPhoto}
-        quote="“Bisnis, Bisnis, Bisnis\nSemuanya tentang memulai”"
-        position="Co-Founder & Head Mastermind"
-        name="Mohammad Ilham Ramadhan Heru"
-        />
-        <LeftQuote
-        source={AnnisaTahtaPhoto}
-        quote="“Seseorang yang berani mengambil tindakan\nbukan bermimpi ialah pengusaha sejati”"
-        position="Co-Founder & Mastermind"
-        name="Annisa Tahta Ramadhani"
-        />
-        <RightQuote
-        source={DeaPhoto}
-        quote="“Berbisnis bukan tentang keuntungan namun\nbagaimana kamu bisa membaca peluang”"
-        position="Co-Founder & Human Resource Developer"
-        name="Erdyavika Claudia Apriwanti"
-        />
-        <LeftQuote
-        source={SalsabilaPhoto}
-        quote="“You’re already success if you take the chance to try”"
-        position="Co-Founder & Head of Operational Manager"
-        name="Salsabila Naqiyya Qoriroh"
-        />
+      <div data-aos="fade-left">
+          <LeftQuote
+          source={DaffaPhoto}
+          quote="“Fokus bertindak demi stabilitas.\nJalani aksi secara berkelanjutan”"
+          position="Founder & Head Mediator"
+          name="Daffa Tyora Hamedya"
+          />
+        </div>
+        <div data-aos="fade-right">
+          <RightQuote
+          source={IlhamPhoto}
+          quote="“Bisnis, Bisnis, Bisnis\nSemuanya tentang memulai”"
+          position="Co-Founder & Head Mastermind"
+          name="Mohammad Ilham Ramadhan Heru"
+          />
+        </div>
+        <div data-aos="fade-left">
+          <LeftQuote
+          source={AnnisaTahtaPhoto}
+          quote="“Seseorang yang berani mengambil tindakan\nbukan bermimpi ialah pengusaha sejati”"
+          position="Co-Founder & Mastermind"
+          name="Annisa Tahta Ramadhani"
+          />
+        </div>
+        <div data-aos="fade-right">
+          <RightQuote
+          source={DeaPhoto}
+          quote="“Berbisnis bukan tentang keuntungan namun\nbagaimana kamu bisa membaca peluang”"
+          position="Co-Founder & Human Resource Developer"
+          name="Erdyavika Claudia Apriwanti"
+          />
+        </div>
+        <div data-aos="fade-left">
+          <LeftQuote
+          source={SalsabilaPhoto}
+          quote="“You’re already success if you take the chance to try”"
+          position="Co-Founder & Head of Operational Manager"
+          name="Salsabila Naqiyya Qoriroh"
+          />
+        </div>
       </div>
       <Rounded text="Provide Knowledge, Develop Self-Potential" bgcolor="bg-emerald-green-50" />
       <VisionMission />
