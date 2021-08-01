@@ -6,8 +6,13 @@ const CompanyImage = styled.div`
   min-width: 418px;
   height: 360px;
   background: url(${props => props.source});
-  background-size: cover;
   background-position: center center;
+
+  @media screen and (max-width: 425px) {
+    min-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 `
 
 function VisionMission() {
