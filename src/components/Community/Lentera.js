@@ -16,45 +16,55 @@ function Lentera() {
   return(
     <div>
       <div className="lentera-container">
-        <LeftQuote
-        source={DaffaPhoto}
-        quote="“Fokus bertindak demi stabilitas\nJalani aksi secara berkelanjutan”"
-        position="Founder & Head Mediator"
-        name="Daffa Tyora Hamedya"
-        />
-        <RightQuote
-        source={IlhamPhoto}
-        quote="“Bisnis, Bisnis, Bisnis\nSemuanya tentang memulai”"
-        position="Co-Founder & Head Mastermind"
-        name="Mohammad Ilham Ramadhan Heru"
-        />
-        <LeftQuote
-        source={AnnisaTahtaPhoto}
-        quote="“Seseorang yang berani mengambil tindakan\nbukan bermimpi ialah pengusaha sejati”"
-        position="Co-Founder & Mastermind"
-        name="Annisa Tahta Ramadhani"
-        />
-        <RightQuote
-        source={DeaPhoto}
-        quote="“Berbisnis bukan tentang keuntungan namun\nbagaimana kamu bisa membaca peluang”"
-        position="Co-Founder & Human Resource Developer"
-        name="Erdyavika Claudia Apriwanti"
-        />
-        <LeftQuote
-        source={SalsabilaPhoto}
-        quote="“You’re already success if you take the chance to try”"
-        position="Founder & Head of Operational Manager"
-        name="Salsabila Naqiyya Qoriroh"
-        />
+      <div data-aos="fade-left">
+          <LeftQuote
+          source={DaffaPhoto}
+          quote="“Fokus bertindak demi stabilitas.\nJalani aksi secara berkelanjutan”"
+          position="Founder & Head Mediator"
+          name="Daffa Tyora Hamedya"
+          />
+        </div>
+        <div data-aos="fade-right">
+          <RightQuote
+          source={IlhamPhoto}
+          quote="“Bisnis, Bisnis, Bisnis\nSemuanya tentang memulai”"
+          position="Co-Founder & Head Mastermind"
+          name="Mohammad Ilham Ramadhan Heru"
+          />
+        </div>
+        <div data-aos="fade-left">
+          <LeftQuote
+          source={AnnisaTahtaPhoto}
+          quote="“Seseorang yang berani mengambil tindakan\nbukan bermimpi ialah pengusaha sejati”"
+          position="Co-Founder & Mastermind"
+          name="Annisa Tahta Ramadhani"
+          />
+        </div>
+        <div data-aos="fade-right">
+          <RightQuote
+          source={DeaPhoto}
+          quote="“Berbisnis bukan tentang keuntungan namun\nbagaimana kamu bisa membaca peluang”"
+          position="Co-Founder & Human Resource Developer"
+          name="Erdyavika Claudia Apriwanti"
+          />
+        </div>
+        <div data-aos="fade-left">
+          <LeftQuote
+          source={SalsabilaPhoto}
+          quote="“You’re already success if you take the chance to try”"
+          position="Co-Founder & Head of Operational Manager"
+          name="Salsabila Naqiyya Qoriroh"
+          />
+        </div>
       </div>
-      <Rounded text="Lorem Ipsum dolor sit amet" bgcolor="bg-emerald-green-50" />
+      <Rounded text="Provide Knowledge, Develop Self-Potential" bgcolor="bg-emerald-green-50" />
       <VisionMission />
       <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"58px", marginBottom: "58px"}}>
-        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Values</h3>
+        <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Pillars</h3>
       </div>
       <CoreValues />
-      <div style={{background: "#C4C4C4", paddingBottom: "24px"}}>
-        <div className="d-flex justify-content-center align-items-center" style={{paddingTop:"28px", marginBottom: "58px"}}>
+      <div style={{background: "#C4C4C4", paddingBottom: "55px", paddingTop: "55px"}}>
+        <div className="d-flex justify-content-center align-items-center" style={{marginBottom: "58px"}}>
           <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Main Bodies</h3>
         </div>
         <MainBodies />

@@ -7,6 +7,12 @@ const CommunityImage = styled.div`
   height: 360px;
   background: url(${props => props.source});
   background-position: center center;
+
+  @media screen and (max-width: 425px) {
+    min-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 `
 
 function VisionMission() {
@@ -20,7 +26,7 @@ function VisionMission() {
             <p className="lead-three heading-underline" style={{textAlign:"center"}}><b>Our Missions</b></p>
           </div>
           <ul>
-            <li className="body-one" style={{textAlign:"justify"}}>Mengedukasi calon pengusaha di Indonesia melalui pemberian ilmu dan pengembangan potensi diri dengan basis teknologi dan kultur.</li>
+            <li className="body-one" style={{textAlign:"justify"}}>Mengedukasi calon pengusaha di Indonesia melalui pemberian ilmu dan pengembangan potensi diri dengan basis teknologi dan kultural.</li>
             <li className="body-one" style={{textAlign:"justify"}}>Mengoptimalkan aktivitas calon pengusaha dengan memberikan keleluasaan dalam bertindak secara nyata.</li>
           </ul>
         </div>
