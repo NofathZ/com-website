@@ -6,7 +6,6 @@ import ViceChairmanPhoto from '../../asset/img/Structure/ViceChairman.jpg'
 const ChairmanImg = styled.div`
   width: 296px;
   height: 480px;
-  // background-color: green;
   margin-right: 2px;
   border-radius: 50px 0 0 50px;
   background: url(${props => props.source});
@@ -16,7 +15,6 @@ const ChairmanImg = styled.div`
 const ViceChairmanImg = styled.div`
   width: 296px;
   height: 480px;
-  // background-color: green;
   margin-left: 2px;
   border-radius: 0 50px 50px 0;
   background: url(${props => props.source});
@@ -27,7 +25,6 @@ const ChairmanViceSmallImg = styled.div`
   border-radius: 20px;
   width: 296px;
   height: 480px;
-  // background-color: green;
   background: url(${props => props.source});
   background-size: cover;
   background-position: center center;

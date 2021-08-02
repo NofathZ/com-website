@@ -1,12 +1,10 @@
 .form-apply-container {
   width: 100%;
-  // background-color: black;
   border-radius: 100px 100px 0 0;
   padding-top: 65px;
 }
 
 .form-input {
-  // border: 2px solid black;
   padding: 0 100px;
 
   input[type='text'], input[type='email'] {
@@ -38,7 +36,7 @@
 .green-section {
   border-radius: 100px 100px 0 0;
   padding-bottom: 50px;
-  background: url('../../asset/img/pattern-three.png') left top no-repeat, url('../../asset/img/pattern-four.png') right bottom no-repeat;
+  background: url('../../asset/img/pattern-three.svg') left top no-repeat, url('../../asset/img/pattern-four.svg') right bottom no-repeat;
 }
 
 @media only screen and (max-width: 768px) {

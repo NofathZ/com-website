@@ -1,41 +1,7 @@
 .milestone-container {
   position: relative;
-  // border: 2px solid black
 }
 
-.milestone-april-container {
-  // display: flex;
-}
-// .milestone-april-img-left {
-//   top: 0;
-//   left: 0;
-//   position: absolute;
-//   width: 320px;
-//   height: 420px;
-//   background-size: cover;
-//   background-position: center center;
-//   border-radius: 0 50px 50px 0;
-// }
-// .milestone-april-img-left-small {
-//   // position: absolute;
-//   width: 320px;
-//   height: 420px;
-//   background-color: green;
-// }
-// .milestone-april-img-right {
-//   position: absolute;
-//   right: 0;
-//   top: 0;
-//   width: 320px;
-//   height: 420px;
-//   background-color: black;
-//   border-radius: 50px 0 0 50px;
-// }
-// .milestone-april-img-right-small {
-//   width: 320px;
-//   height: 420px;
-//   background-color: rgb(117, 9, 9);
-// }
 .milestone-april-content {
   min-height: 420px;
   padding-left: 350px;
@@ -46,36 +12,22 @@
   display: flex;
 }
 .milestone-july-content-left {
-  // position: relative;
-  // border: 2px solid black;
   width: 100%;
-  // background-color: black;
-  // border-radius: 0 50px 50px 0;
 }
 .milestone-july-content-left-box {
   width: 100%;
   height: 100%;
-  // border: 2px solid red;
   flex-direction: column;
 }
 .milestone-july-content-right-box {
   width: 100%;
   height: 100%;
-  // border: 2px solid red;
   flex-direction: column;
 }
 .milestone-july-content-right {
   width: 100%;
-  // background-color: black;
-  // border-radius: 50px 0 0 50px;
 }
 .milestone-july-img-container {
-  // width: 600px;
-  // height: 400px;
-  // background-color: green;
-  // padding-left: 72px;
-  // padding-right: 72px;
-  // width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './FormApply.scss'
 import backoffice from '../../api/backoffice'
-import axios from 'axios'
 import Swal from 'sweetalert2'
 
 function FormApply(props) {
@@ -80,38 +79,13 @@ function FormApply(props) {
             </select>
           </div>
           <div style={{marginBottom:"40px"}}>
-            <label for="attachment" className="form-label">Curriculum Vitae</label>
+            <label for="attachment" className="form-label">Drop your documents here</label>
             <input onChange={(event) => setAttachUser(event.target.files[0])} className="form-control" type="file" id="attachment" name="attachment" required />
           </div>
           <div className="d-flex justify-content-center align-items-center" style={{marginBottom:"40px"}}>
             <button type="submit" className="btn btn-primary btn-submit bg-tangerine-orange-100 body-two" style={{border: "none"}}>Join Now</button>            
           </div>
         </form>
-        {/* <form  action="http://backoffice.com-indo.com/api/v1/user/jobApplications" method="POST" enctype="multipart/form-data">
-
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" />
-          <br />
-          <label for="address">Address</label>
-          <input type="text" name="address" id="address" />
-          <br />
-          <label for="university">University</label>
-          <input type="text" name="university" id="university" />
-          <br />
-          <label for="major">Major</label>
-          <input type="text" name="major" id="major" />
-          <br />
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
-          <br />
-          <label for="department_id">Department ID</label>
-          <input type="number" name="department_id" id="department_id" />
-          <br />
-          <label for="attachment">Attachment</label>
-          <input type="file" name="attachment" id="attachment" />
-          <br />
-          <input type="submit" value="SUBMIT" />
-        </form> */}
       </div>
     </div>
   )
