@@ -8,7 +8,7 @@ function CoreValues() {
   return(
     <div className="container vision-mission-container" style={{marginBottom:"70px"}}>
       <div className="row">
-        <div className="col d-flex justify-content-center" style={{marginBottom:"30px"}}>
+        <div className="col d-flex justify-content-center" style={{marginBottom:"30px"}} data-aos="fade-up">
           <CoreCard
             title="Kepemimpinan"
             content="Secara proaktif mengelola perubahan untuk mempertimbangkan dan membuat keputusan terbaik serta dapat menyatakan nya secara tegas."
@@ -16,7 +16,7 @@ function CoreValues() {
             source={Edera1}
           />
         </div>
-        <div className="col d-flex justify-content-center" style={{marginBottom:"30px"}}>
+        <div className="col d-flex justify-content-center" style={{marginBottom:"30px"}} data-aos="fade-up">
           <CoreCard
             title="Profesionalitas"
             content="Memenuhi hak dan kewajiban tiap peran yang diampu secara kompeten dan komitmen."
@@ -24,7 +24,7 @@ function CoreValues() {
             source={Edera2}
           />
         </div>
-        <div className="col d-flex justify-content-center" style={{marginBottom:"30px"}}>
+        <div className="col d-flex justify-content-center" style={{marginBottom:"30px"}} data-aos="fade-up">
           <CoreCard
             title="Keseimbangan"
             content="Menggunakan sumber daya yang dimiliki dalam proporsi yang sesuai serta mengetahui dan menyampaikan batasan diri secara terbuka."

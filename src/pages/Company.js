@@ -5,11 +5,14 @@ import Header from '../components/Company/Header'
 import Footer from '../components/Footer'
 import Teachera from '../components/Company/Teachera'
 import Title from '../components/templates/Title'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 function Company() {
   useEffect(() => {
     window.scrollTo(0, 0);
+    AOS.init({duration: 500})
   }, [])
   return(
     <>
