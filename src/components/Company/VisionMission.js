@@ -29,7 +29,7 @@ function VisionMission() {
             <li className="body-one" style={{textAlign:"justify"}}>Meningkatkan produktivitas calon insan kreatif dan inovatif dengan memberikan ruang karya seluas-luasnya.</li>
           </ul>
         </div>
-        <CompanyImage source={EderaLogo} />
+        <CompanyImage source={EderaLogo} data-aos="zoom-in" />
       </div>
     </div>
   )

@@ -19,7 +19,7 @@ function VisionMission() {
   return(
     <div className="vision-mission-container-community" style={{marginBottom:"70px"}}>
       <div className="container d-flex justify-content-between align-items-center" style={{columnGap:"100px"}}>
-        <CommunityImage source={LenteraLogo} />
+        <CommunityImage source={LenteraLogo} data-aos="zoom-in" />
         <div className="vision-mission">
           <p className="body-one" style={{textAlign:"justify"}}>Mewujudkan stabilitas perekonomian Indonesia yang berkelanjutan dengan pendukungan dan pengembangan di dunia bisnis.</p>
           <div className="d-flex justify-content-center align-items-center" style={{marginBottom: "1rem"}}>  

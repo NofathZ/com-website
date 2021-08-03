@@ -73,7 +73,7 @@ function Lentera() {
         <h3 className="heading-three heading-underline" style={{textAlign:"center"}}>Core Team</h3>
       </div>
       <div className="container text-center coreteam-image-community" style={{marginBottom: "58px"}}>
-        <img src={CoreTeamImage} alt="" />
+        <img src={CoreTeamImage} alt="" data-aos="zoom-in" />
       </div>
     </div>
   )
