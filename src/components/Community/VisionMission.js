@@ -26,7 +26,7 @@ function VisionMission() {
             <p className="lead-three heading-underline" style={{textAlign:"center"}}><b>Our Missions</b></p>
           </div>
           <ul>
-            <li className="body-one" style={{textAlign:"justify"}}>Mengedukasi calon pengusaha di Indonesia melalui pemberian ilmu dan pengembangan potensi diri dengan basis teknologi dan kultural.</li>
+            <li className="body-one" style={{textAlign:"justify"}}>Mengedukasi calon pengusaha di Indonesia melalui pemberian ilmu dan pengembangan potensi diri dengan basis kultural dan teknologi.</li>
             <li className="body-one" style={{textAlign:"justify"}}>Mengoptimalkan aktivitas calon pengusaha dengan memberikan keleluasaan dalam bertindak secara nyata.</li>
           </ul>
         </div>
